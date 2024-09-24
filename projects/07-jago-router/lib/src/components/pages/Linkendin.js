@@ -1,0 +1,1 @@
+import{jsx as _jsx,jsxs as _jsxs}from"react/jsx-runtime";const Linkendin=({routeParams})=>/*#__PURE__*/_jsx("div",{children:/*#__PURE__*/_jsxs("h1",{children:["Linkendin ",routeParams.profile]})});export default Linkendin;

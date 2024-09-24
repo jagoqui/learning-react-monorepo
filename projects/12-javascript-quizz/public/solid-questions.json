@@ -1,0 +1,554 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cómo se define un componente en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando una función que retorna JSX",
+      "Usando una clase con métodos de ciclo de vida",
+      "Definiendo un objeto con propiedades",
+      "Usando una función que retorna HTML puro"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Cómo se declara una señal (reactive state) en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando `createSignal`",
+      "Usando `useState`",
+      "Usando `createState`",
+      "Usando `createReactive`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Qué hace la función `createEffect` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Ejecuta código de manera reactiva cuando cambian las dependencias",
+      "Crea un efecto visual en el DOM",
+      "Define un hook para manejar el estado",
+      "Conecta el estado global de la aplicación"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Cómo se puede condicionar el renderizado en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando expresiones ternarias en JSX",
+      "Usando `v-if` como en Vue.js",
+      "Definiendo condiciones en el archivo CSS",
+      "Usando `ngIf` como en Angular"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Cómo se puede manejar eventos en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando la sintaxis estándar de eventos en JSX, como `onClick`",
+      "Definiendo eventos en el ciclo de vida del componente",
+      "Usando `addEventListener` directamente en el DOM",
+      "Definiendo eventos en el archivo de configuración del proyecto"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Cuál es la diferencia principal entre Solid.js y React?",
+    "code": "",
+    "answers": [
+      "Solid.js usa una reactividad fina mientras que React usa un virtual DOM",
+      "Solid.js tiene un enfoque basado en clases y React es completamente funcional",
+      "Solid.js usa observables y React promesas",
+      "Solid.js maneja solo CSS y React no permite estilos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Cómo se realiza el enrutamiento en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando `solid-app-router`",
+      "Usando `react-router`",
+      "Usando un archivo de configuración de rutas",
+      "Solid.js no soporta enrutamiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Qué función se usa para crear stores en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando `createStore`",
+      "Usando `createSignal`",
+      "Usando `useContext`",
+      "Usando `createEffect`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cómo se puede compartir estado entre componentes en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando `createContext` y `useContext`",
+      "Usando `props`",
+      "Definiendo el estado en un archivo de configuración",
+      "Usando `setState` global"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "¿Cómo se define una referencia al DOM en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando `ref` en el JSX",
+      "Usando `getDOMNode()`",
+      "Usando `document.querySelector()`",
+      "Usando `useRef`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 11,
+    "question": "¿Cómo se maneja la actualización de estado en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando la función retornada por `createSignal`",
+      "Modificando el estado directamente",
+      "Usando `setState`",
+      "Usando `useReducer`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "¿Cómo se crea un efecto secundario que dependa de múltiples señales en Solid.js?",
+    "code": "",
+    "answers": [
+      "Pasando las señales como dependencias a `createEffect`",
+      "Uniendo las señales con `combineEffect`",
+      "Creando un nuevo hook",
+      "Usando `useEffect` con un array de dependencias"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "¿Cómo se pueden prevenir múltiples renderizados innecesarios en Solid.js?",
+    "code": "",
+    "answers": [
+      "Solid.js optimiza automáticamente las actualizaciones con su reactividad fina",
+      "Usando un memo",
+      "Definiendo un key único en cada componente",
+      "Usando `shouldComponentUpdate`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "¿Cómo se pueden observar cambios en una señal específica en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando `createEffect`",
+      "Usando `useEffect`",
+      "Definiendo un listener de eventos",
+      "Usando `watchSignal`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 15,
+    "question": "¿Qué hace `createRoot` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Crea un contexto reactivo independiente para un componente",
+      "Renderiza el componente en el DOM",
+      "Inicia el enrutador de la aplicación",
+      "Conecta el estado con el servidor"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "¿Qué hace `createMemo` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Memoriza el resultado de una operación para evitar recalcularlo",
+      "Permite ejecutar código una sola vez",
+      "Evita que el componente se renderice",
+      "Sirve para gestionar los eventos del DOM"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "¿Cómo se pueden animar elementos en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando animaciones CSS",
+      "Definiendo animaciones en el archivo de configuración",
+      "Solid.js no soporta animaciones",
+      "Usando el hook `useAnimation`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "¿Qué permite hacer el hook `onCleanup` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Ejecutar código cuando se desmonta un componente",
+      "Limpiar el DOM después de una actualización",
+      "Prevenir actualizaciones en un componente",
+      "Resincronizar el estado global"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Qué hace `onMount` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Ejecuta código justo después de que el componente se haya montado",
+      "Renderiza el componente en el DOM",
+      "Actualiza las señales antes de renderizar el componente",
+      "Monta un hook personalizado"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "¿Qué sintaxis usa Solid.js para definir JSX?",
+    "code": "",
+    "answers": [
+      "La misma que React",
+      "Usa HTML directamente",
+      "Solid.js no soporta JSX",
+      "Usa templates de Vue"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 21,
+    "question": "¿Cómo se suscribe un componente a una señal en Solid.js?",
+    "code": "",
+    "answers": [
+      "Declarando la señal y usándola directamente en el JSX",
+      "Usando `useEffect`",
+      "Usando `onSignalChange`",
+      "Especificando el valor de la señal en el constructor"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 22,
+    "question": "¿Qué permite hacer `createContext` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Compartir estado o funciones entre componentes sin pasar props manualmente",
+      "Inicializar el estado global de la aplicación",
+      "Definir efectos secundarios globales",
+      "Configurar rutas en la aplicación"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 23,
+    "question": "¿Cómo se manejan los formularios en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando señales para manejar los valores y eventos del formulario",
+      "Solid.js no soporta formularios",
+      "Definiendo una clase con métodos para manejar formularios",
+      "Usando una biblioteca externa específica para formularios"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Qué hace la función `createResource` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Permite manejar datos asincrónicos y su estado en el componente",
+      "Crea un recurso de red para la aplicación",
+      "Optimiza la carga de recursos estáticos",
+      "Define un hook para manejar eventos de usuario"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Cómo se realiza la actualización condicional de un componente en Solid.js?",
+    "code": "",
+    "answers": [
+      "Utilizando señales y efectos que se actualizan automáticamente",
+      "Usando un flag en el estado para condicionar la renderización",
+      "Definiendo un hook de actualización condicional",
+      "Aplicando condicionales en el método de renderizado"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 26,
+    "question": "¿Cómo se integran componentes de terceros en Solid.js?",
+    "code": "",
+    "answers": [
+      "Importando el componente y usándolo como JSX",
+      "Solid.js no soporta componentes de terceros",
+      "Usando un adaptador específico",
+      "Integrando a través de una biblioteca de compatibilidad"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 27,
+    "question": "¿Cómo se puede hacer que un componente en Solid.js tenga un estilo específico?",
+    "code": "",
+    "answers": [
+      "Definiendo estilos en un bloque `<style>` dentro del archivo del componente",
+      "Solid.js no soporta estilos",
+      "Aplicando clases CSS globales",
+      "Usando un preprocesador CSS como SASS"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 28,
+    "question": "¿Qué es una señal derivada en Solid.js?",
+    "code": "",
+    "answers": [
+      "Una señal que depende de otras señales y se actualiza automáticamente",
+      "Una señal que no se puede modificar",
+      "Una señal que se crea solo en el montaje del componente",
+      "Una señal que se usa para manejar eventos del DOM"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 29,
+    "question": "¿Cómo se usa el hook `createStore` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Para crear un store reactivo que maneje estado complejo",
+      "Para definir señales individuales",
+      "Para gestionar el ciclo de vida del componente",
+      "Para manejar efectos secundarios globales"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 30,
+    "question": "¿Cómo se puede realizar la sincronización entre múltiples componentes en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando el contexto (`createContext` y `useContext`) para compartir estado",
+      "Solid.js no soporta sincronización entre componentes",
+      "Definiendo un store global",
+      "Usando props para pasar datos entre componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 31,
+    "question": "¿Cómo se manejan los errores en un componente de Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando bloques `try/catch` en funciones y señales",
+      "Definiendo un componente específico para manejar errores",
+      "Solid.js no tiene soporte para manejo de errores",
+      "Usando una biblioteca externa para manejar errores"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Qué es una `store` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Un objeto reactivo que puede ser compartido entre componentes",
+      "Una función que se ejecuta en el montaje del componente",
+      "Un archivo que define estilos globales",
+      "Un componente especial para manejar datos asincrónicos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 33,
+    "question": "¿Cómo se define una señal con un valor inicial en Solid.js?",
+    "code": "",
+    "answers": [
+      "`createSignal(initialValue)`",
+      "`createSignal(value)`",
+      "`createStore(initialValue)`",
+      "`createStore(value)`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Cómo se realiza una petición HTTP en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando `fetch` directamente en el componente o en un `createResource`",
+      "Solid.js no soporta peticiones HTTP",
+      "Usando `axios`",
+      "Definiendo un servicio de datos global"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 35,
+    "question": "¿Qué hace la función `createMemo` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Memoriza el resultado de una operación para evitar recalcularlo",
+      "Crea una señal con un valor inicial",
+      "Define un efecto secundario",
+      "Maneja eventos del DOM"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 36,
+    "question": "¿Cómo se puede acceder al contexto de un componente en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando `useContext`",
+      "Accediendo directamente a las propiedades del componente",
+      "Usando `props`",
+      "Definiendo un hook global para el contexto"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Cómo se puede manejar la renderización condicional en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando expresiones condicionales directamente en JSX",
+      "Definiendo métodos de renderizado condicional",
+      "Usando una biblioteca de renderizado condicional",
+      "Aplicando clases condicionalmente en el archivo de estilos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 38,
+    "question": "¿Qué hace `createResource` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Maneja datos asincrónicos y permite obtener estados de carga y error",
+      "Crea una señal con un valor inicial",
+      "Define un store global",
+      "Gestiona el estado del componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 39,
+    "question": "¿Cómo se puede definir una animación en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando animaciones CSS en el bloque `<style>`",
+      "Solid.js no soporta animaciones",
+      "Usando un hook específico para animaciones",
+      "Definiendo animaciones en un archivo separado"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 40,
+    "question": "¿Cómo se utiliza la función `onCleanup` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Para limpiar recursos cuando un componente se desmonta",
+      "Para definir la limpieza de estilos",
+      "Para evitar actualizaciones de estado",
+      "Para sincronizar el estado global"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 41,
+    "question": "¿Cómo se maneja el estado local en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando señales con `createSignal`",
+      "Definiendo un store local",
+      "Usando `useState`",
+      "Definiendo propiedades en el constructor del componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Qué es `createRoot` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Crea un nuevo contexto reactivo para el componente",
+      "Renderiza el componente en el DOM",
+      "Define el estado global de la aplicación",
+      "Inicializa el enrutador de la aplicación"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 43,
+    "question": "¿Cómo se manejan los efectos secundarios en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando `createEffect`",
+      "Definiendo un hook específico para efectos secundarios",
+      "Usando el método `componentDidMount`",
+      "Solid.js no soporta efectos secundarios"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 44,
+    "question": "¿Cómo se puede optimizar el rendimiento en Solid.js?",
+    "code": "",
+    "answers": [
+      "Utilizando señales y memoización para evitar renders innecesarios",
+      "Solid.js no necesita optimización de rendimiento",
+      "Usando `shouldComponentUpdate`",
+      "Optimizando el tamaño de los archivos de estilo"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "¿Qué hace `createStore` en Solid.js?",
+    "code": "",
+    "answers": [
+      "Permite crear un store reactivo que maneja un estado complejo",
+      "Crea una señal con un valor inicial",
+      "Define un componente de almacenamiento",
+      "Gestiona eventos del DOM"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 46,
+    "question": "¿Cómo se puede manejar el ciclo de vida de un componente en Solid.js?",
+    "code": "",
+    "answers": [
+      "Usando efectos (`createEffect`) y limpiezas (`onCleanup`)",
+      "Definiendo métodos de ciclo de vida como en React",
+      "Usando un hook de ciclo de vida específico",
+      "Solid.js no soporta manejo del ciclo de vida"
+    ],
+    "correctAnswerIndex": 0
+  }
+]

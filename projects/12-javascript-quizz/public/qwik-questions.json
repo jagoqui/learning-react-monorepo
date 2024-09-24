@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué es Qwik?",
+    "code": "",
+    "answers": [
+      "Un framework para aplicaciones web",
+      "Una librería de CSS",
+      "Un compilador de JavaScript",
+      "Una base de datos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál es la principal característica de Qwik?",
+    "code": "",
+    "answers": [
+      "Carga rápida y optimización del tiempo de carga",
+      "Soporte para bases de datos",
+      "Integración con frameworks de backend",
+      "Generación automática de APIs"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Cómo se define un componente en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando la función `component()`",
+      "Con una clase que extiende `Component`",
+      "Mediante un archivo `.qwik`",
+      "Con una función que retorna un JSX"
+    ],
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 4,
+    "question": "¿Qué método se usa para definir un estado en un componente Qwik?",
+    "code": "",
+    "answers": [
+      "`useState()`",
+      "`createState()`",
+      "`initState()`",
+      "`defineState()`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Cómo se realiza el enrutamiento en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando el módulo `@qwik/router`",
+      "Con una configuración en un archivo `routes.js`",
+      "Mediante un componente `Router`",
+      "Definiendo rutas en el archivo de configuración"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Qué es un `signal` en Qwik?",
+    "code": "",
+    "answers": [
+      "Una estructura para manejar el estado reactivo",
+      "Un componente especial",
+      "Un método de renderizado",
+      "Una función de eventos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Cómo se define un `signal` en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando `createSignal()`",
+      "Definiendo un objeto `signal`",
+      "Con un método de estado",
+      "Qwik no soporta signals"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Cómo se importan componentes en Qwik?",
+    "code": "",
+    "answers": [
+      "Con `import` en el archivo del componente",
+      "Mediante una función de carga",
+      "Definiendo importaciones en un archivo de configuración",
+      "Qwik no soporta importación de componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Qué función permite observar cambios en los `signals` en Qwik?",
+    "code": "",
+    "answers": [
+      "`createEffect()`",
+      "`observeSignal()`",
+      "`watchSignal()`",
+      "`listenSignal()`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "¿Cómo se configura el entorno de desarrollo en Qwik?",
+    "code": "",
+    "answers": [
+      "Editando el archivo de configuración del proyecto",
+      "Usando un archivo `.env`",
+      "Mediante un asistente de configuración",
+      "Qwik no soporta configuración del entorno"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 11,
+    "question": "¿Cómo se define una función en un componente Qwik?",
+    "code": "",
+    "answers": [
+      "Dentro de la función del componente",
+      "En un archivo de utilidades",
+      "Mediante una clase de métodos",
+      "Qwik no soporta funciones en componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "¿Qué es un `context` en Qwik?",
+    "code": "",
+    "answers": [
+      "Un mecanismo para pasar datos globales a través de los componentes",
+      "Un tipo de componente especial",
+      "Una función de estado",
+      "Qwik no soporta context"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "¿Cómo se manejan las rutas dinámicas en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando parámetros en el enrutador",
+      "Definiendo rutas en el archivo de configuración",
+      "Mediante una función de navegación",
+      "Qwik no soporta rutas dinámicas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "¿Cómo se realizan pruebas unitarias en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando un framework de pruebas compatible con JavaScript",
+      "Definiendo pruebas en el archivo de configuración",
+      "Con un sistema de pruebas integrado",
+      "Qwik no soporta pruebas unitarias"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 15,
+    "question": "¿Qué es un `store` en Qwik?",
+    "code": "",
+    "answers": [
+      "Un lugar para gestionar el estado global de la aplicación",
+      "Un componente para almacenar datos",
+      "Una librería para manejo de eventos",
+      "Una función para renderizado"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "¿Cómo se realiza la autenticación en Qwik?",
+    "code": "",
+    "answers": [
+      "Integrando un servicio de autenticación externa",
+      "Definiendo un módulo de autenticación",
+      "Usando un componente de autenticación",
+      "Qwik no soporta autenticación"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "¿Cómo se crea un efecto secundario en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando `createEffect()`",
+      "Definiendo efectos en el archivo de configuración",
+      "Con una clase especial",
+      "Qwik no soporta efectos secundarios"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "¿Cómo se gestiona el estado local en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando `createSignal()`",
+      "Definiendo el estado en el constructor del componente",
+      "Mediante un objeto de estado",
+      "Qwik no soporta estado local"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Cómo se agregan estilos a un componente en Qwik?",
+    "code": "",
+    "answers": [
+      "Importando archivos CSS en el archivo del componente",
+      "Definiendo estilos en un archivo separado",
+      "Con una función de estilos",
+      "Qwik no soporta estilos en componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "¿Cómo se realiza el renderizado condicional en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando expresiones en JSX",
+      "Definiendo condiciones en el archivo de configuración",
+      "Mediante una función de renderizado",
+      "Qwik no soporta renderizado condicional"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 21,
+    "question": "¿Cómo se pasa información de un componente padre a un componente hijo en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando `props`",
+      "Mediante el contexto de la aplicación",
+      "Con un `store`",
+      "Qwik no soporta paso de información entre componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 22,
+    "question": "¿Qué método se usa para manejar eventos en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando atributos de evento en JSX",
+      "Definiendo eventos en el archivo de configuración",
+      "Con una librería externa",
+      "Qwik no soporta manejo de eventos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 23,
+    "question": "¿Qué función permite observar cambios en un `signal` en Qwik?",
+    "code": "",
+    "answers": [
+      "`createEffect()`",
+      "`watchSignal()`",
+      "`observeSignal()`",
+      "`listenSignal()`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Cómo se configuran los plugins en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando el archivo de configuración del proyecto",
+      "Definiendo plugins en el archivo `plugins.js`",
+      "Con una función de configuración",
+      "Qwik no soporta plugins"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Cómo se implementan animaciones en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando la API de animación CSS",
+      "Con una librería de animaciones",
+      "Definiendo animaciones en el archivo del componente",
+      "Qwik no soporta animaciones"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 26,
+    "question": "¿Cómo se maneja el enrutamiento anidado en Qwik?",
+    "code": "",
+    "answers": [
+      "Definiendo rutas anidadas en el enrutador",
+      "Mediante una configuración en el archivo `routes.js`",
+      "Con un componente especial",
+      "Qwik no soporta enrutamiento anidado"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 27,
+    "question": "¿Cómo se realiza el manejo de errores en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando un componente de manejo de errores",
+      "Definiendo un módulo de errores",
+      "Con un servicio de manejo de errores",
+      "Qwik no soporta manejo de errores"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 28,
+    "question": "¿Cómo se optimiza el rendimiento en Qwik?",
+    "code": "",
+    "answers": [
+      "Mediante la carga diferida y optimización del código",
+      "Con técnicas de compresión",
+      "Definiendo estrategias de caché",
+      "Qwik no soporta optimización del rendimiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 29,
+    "question": "¿Cómo se integran APIs externas en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando funciones de integración en el componente",
+      "Definiendo servicios de API en el archivo de configuración",
+      "Con una librería de integración",
+      "Qwik no soporta integración con APIs externas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 30,
+    "question": "¿Cómo se realiza el despliegue de una aplicación Qwik?",
+    "code": "",
+    "answers": [
+      "Construyendo la aplicación y desplegando en un servidor o CDN",
+      "Mediante un comando de despliegue integrado",
+      "Con una plataforma de despliegue específica",
+      "Qwik no soporta despliegue"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 31,
+    "question": "¿Cómo se maneja la validación de formularios en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando una librería de validación o validación manual",
+      "Definiendo validación en el archivo del formulario",
+      "Con un servicio de validación",
+      "Qwik no soporta validación de formularios"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Cómo se realiza el manejo de datos asíncronos en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando `async`/`await` y `promises`",
+      "Con un componente especial",
+      "Definiendo datos asíncronos en el archivo de configuración",
+      "Qwik no soporta manejo de datos asíncronos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 33,
+    "question": "¿Cómo se define un estilo global en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando un archivo CSS global",
+      "Definiendo estilos en el archivo de configuración",
+      "Mediante una clase de estilo global",
+      "Qwik no soporta estilos globales"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Cómo se gestionan las dependencias en Qwik?",
+    "code": "",
+    "answers": [
+      "Mediante un archivo `package.json`",
+      "Definiendo dependencias en el archivo de configuración",
+      "Con una herramienta de gestión de dependencias",
+      "Qwik no soporta gestión de dependencias"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 35,
+    "question": "¿Cómo se realiza la navegación entre páginas en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando el enrutador integrado",
+      "Definiendo rutas en el archivo `routes.js`",
+      "Con una función de navegación",
+      "Qwik no soporta navegación entre páginas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 36,
+    "question": "¿Cómo se actualizan los datos en un componente en Qwik?",
+    "code": "",
+    "answers": [
+      "Mediante `setState()` o actualizaciones de `signals`",
+      "Con una función de actualización",
+      "Definiendo datos en el archivo de configuración",
+      "Qwik no soporta actualizaciones de datos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Qué es un `task` en Qwik?",
+    "code": "",
+    "answers": [
+      "Una unidad de trabajo asíncrono",
+      "Un componente de tareas",
+      "Una función de tareas",
+      "Qwik no soporta tareas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 38,
+    "question": "¿Cómo se realiza la internacionalización en Qwik?",
+    "code": "",
+    "answers": [
+      "Usando una librería de internacionalización",
+      "Definiendo traducciones en el archivo de configuración",
+      "Con un servicio de internacionalización",
+      "Qwik no soporta internacionalización"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 39,
+    "question": "¿Cómo se define un componente hijo en Qwik?",
+    "code": "",
+    "answers": [
+      "Dentro del archivo del componente padre",
+      "Con un archivo separado para el componente hijo",
+      "Mediante una función de componente",
+      "Qwik no soporta componentes hijos"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 40,
+    "question": "¿Qué función se usa para crear un componente en Qwik?",
+    "code": "",
+    "answers": [
+      "`defineComponent()`",
+      "`createComponent()`",
+      "`initComponent()`",
+      "`buildComponent()`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 41,
+    "question": "¿Cómo se gestionan los estilos locales en un componente Qwik?",
+    "code": "",
+    "answers": [
+      "Usando `styled-components` o estilos en el archivo del componente",
+      "Definiendo estilos en el archivo de configuración",
+      "Mediante una librería de estilos",
+      "Qwik no soporta estilos locales"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Cómo se depura una aplicación Qwik?",
+    "code": "",
+    "answers": [
+      "Usando herramientas de depuración de navegador",
+      "Con un depurador integrado en Qwik",
+      "Definiendo puntos de interrupción en el código",
+      "Qwik no soporta depuración"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 43,
+    "question": "¿Qué método se usa para ejecutar código al montar un componente en Qwik?",
+    "code": "",
+    "answers": [
+      "`onMount()`",
+      "`componentDidMount()`",
+      "`initComponent()`",
+      "`afterRender()`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 44,
+    "question": "¿Cómo se maneja el estado en Qwik?",
+    "code": "",
+    "answers": [
+      "Con `signals` y `stores`",
+      "Usando el estado global",
+      "Definiendo estados en el archivo de configuración",
+      "Qwik no soporta manejo de estado"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "¿Cómo se realizan las actualizaciones de estado en un componente Qwik?",
+    "code": "",
+    "answers": [
+      "Usando `setState()` o actualizaciones de `signals`",
+      "Definiendo métodos de actualización en el componente",
+      "Mediante una función de estado",
+      "Qwik no soporta actualizaciones de estado"
+    ],
+    "correctAnswerIndex": 0
+  }
+]

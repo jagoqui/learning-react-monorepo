@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cómo se define un componente en Svelte?",
+    "code": "",
+    "answers": [
+      "Se crea un archivo `.svelte` con el nombre del componente y se exporta una función",
+      "Se define una clase que extiende `SvelteComponent`",
+      "Se usa la función `createComponent` de Svelte",
+      "Se define una función y se exporta como un módulo"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál es la sintaxis para declarar una variable reactiva en Svelte?",
+    "code": "",
+    "answers": [
+      "$: variable = valor;",
+      "let variable = valor;",
+      "var variable = valor;",
+      "const variable = valor;"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Cómo se pasa una prop a un componente hijo en Svelte?",
+    "code": "",
+    "answers": [
+      "Se agrega como atributo en la etiqueta del componente hijo",
+      "Se usa el método `setProps` del componente hijo",
+      "Se define una variable global en el componente padre",
+      "Se usa el método `bind` en la declaración del componente hijo"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Cómo se maneja un evento en Svelte?",
+    "code": "",
+    "answers": [
+      "Usando la sintaxis `on:eventName={handler}`",
+      "Usando la sintaxis `handle:eventName={handler}`",
+      "Usando `addEventListener` en el componente",
+      "Definiendo una función en el componente y llamándola directamente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Cómo se usa el `store` en Svelte para manejar el estado global?",
+    "code": "",
+    "answers": [
+      "Se importa el `writable` o `readable` desde `svelte/store` y se usa para crear el store",
+      "Se usa el método `createStore` proporcionado por Svelte",
+      "Se definen variables globales en el componente raíz",
+      "Se usa un objeto global para manejar el estado"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Qué hace la sintaxis `{#if condition} ... {/if}` en Svelte?",
+    "code": "",
+    "answers": [
+      "Condicionalmente renderiza el bloque de código basado en la condición",
+      "Define un componente condicional",
+      "Ejecuta código solo si la condición es verdadera",
+      "Crea un componente que se renderiza solo si la condición es falsa"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Cómo se definen estilos locales para un componente en Svelte?",
+    "code": "",
+    "answers": [
+      "Usando una etiqueta `<style>` dentro del archivo `.svelte`",
+      "Agregando estilos en un archivo CSS separado",
+      "Usando el atributo `style` en los elementos HTML",
+      "Definiendo clases CSS en un objeto JavaScript"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Qué es un `slot` en Svelte?",
+    "code": "",
+    "answers": [
+      "Un lugar en un componente donde se puede insertar contenido del componente padre",
+      "Un componente que se usa para manejar eventos",
+      "Un tipo de store para datos",
+      "Una función para pasar datos entre componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cómo se maneja la animación en Svelte?",
+    "code": "",
+    "answers": [
+      "Usando las funciones `transition` y `animate` proporcionadas por Svelte",
+      "Usando la biblioteca `anime.js` integrada",
+      "Usando la propiedad `animation` en CSS",
+      "Usando el componente `Animate` proporcionado por Svelte"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "¿Cómo se definen los `actions` en Svelte?",
+    "code": "",
+    "answers": [
+      "Como funciones que se pasan a los elementos y se ejecutan al inicializar el componente",
+      "Como métodos dentro de un componente",
+      "Como propiedades del componente que se deben definir explícitamente",
+      "Como eventos personalizados que se pueden emitir desde el componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 11,
+    "question": "¿Qué hace la sintaxis `{#each items as item} ... {/each}` en Svelte?",
+    "code": "",
+    "answers": [
+      "Itera sobre una lista de elementos y renderiza un bloque para cada uno",
+      "Define un componente que renderiza una lista",
+      "Ejecuta una función para cada elemento de la lista",
+      "Crea una copia de cada elemento de la lista"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "¿Cómo se manejan las promesas en Svelte?",
+    "code": "",
+    "answers": [
+      "Usando el método `then` en el componente y manejando el estado con variables reactivas",
+      "Usando el método `await` directamente en el código del componente",
+      "Usando el store `promise` proporcionado por Svelte",
+      "Definiendo una función asíncrona y llamándola desde el componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "¿Cómo se definen y usan variables en un componente de Svelte?",
+    "code": "",
+    "answers": [
+      "Se definen usando la sintaxis `let variable = valor;` y se pueden usar directamente en el HTML del componente",
+      "Se definen como propiedades en la clase del componente y se accede a ellas en el HTML",
+      "Se definen como variables globales y se importan en el componente",
+      "Se definen en un archivo JavaScript separado y se importan en el componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "¿Qué es una `reactive statement` en Svelte?",
+    "code": "",
+    "answers": [
+      "Una declaración que se ejecuta automáticamente cada vez que cambian las variables a las que está vinculada",
+      "Una declaración que actualiza el estado del componente",
+      "Una declaración que maneja eventos del usuario",
+      "Una declaración que define el estilo reactivo del componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 15,
+    "question": "¿Cómo se implementa el enrutamiento en una aplicación de Svelte?",
+    "code": "",
+    "answers": [
+      "Usando una biblioteca externa como `svelte-routing` o `svelte-spa-router`",
+      "Usando el componente `Router` proporcionado por Svelte",
+      "Definiendo rutas directamente en el archivo `App.svelte`",
+      "Usando `window.location` para manejar el enrutamiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "¿Qué hace la función `beforeUpdate` en Svelte?",
+    "code": "",
+    "answers": [
+      "Permite ejecutar código justo antes de que el componente se actualice",
+      "Ejecuta código justo después de que el componente se actualice",
+      "Permite inicializar datos cuando se monta el componente",
+      "Permite manejar eventos de carga inicial del componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "¿Cómo se accede a una `store` en un componente de Svelte?",
+    "code": "",
+    "answers": [
+      "Importando el store y suscribiéndose a él con el método `$store`",
+      "Usando el método `getStore` proporcionado por Svelte",
+      "Accediendo al store directamente en el HTML del componente",
+      "Definiendo una propiedad `store` en el componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "¿Cómo se definen propiedades en un componente hijo en Svelte?",
+    "code": "",
+    "answers": [
+      "Se definen como variables exportadas en el componente hijo",
+      "Se definen como métodos en la clase del componente hijo",
+      "Se pasan como atributos en la etiqueta del componente hijo",
+      "Se definen como constantes en el componente hijo"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Qué es el `context API` en Svelte?",
+    "code": "",
+    "answers": [
+      "Un método para pasar datos a través de la jerarquía de componentes sin usar props",
+      "Una forma de gestionar el estado global",
+      "Un componente que maneja el contexto de eventos",
+      "Una API para definir y manejar estilos en los componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "¿Cómo se usa `props` en un componente de Svelte?",
+    "code": "",
+    "answers": [
+      "Se definen como variables exportadas y se pasan como atributos en la etiqueta del componente hijo",
+      "Se definen como parámetros en el constructor del componente",
+      "Se utilizan mediante el método `setProps`",
+      "Se importan directamente desde el componente padre"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 21,
+    "question": "¿Cómo se utilizan los `stores` de tipo `readable` en Svelte?",
+    "code": "",
+    "answers": [
+      "Se crean con el método `readable` y se suscriben para leer los valores",
+      "Se definen como constantes dentro del componente",
+      "Se utilizan mediante el método `getStore`",
+      "Se pasan como parámetros a los métodos del componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 22,
+    "question": "¿Qué es un `action` en Svelte?",
+    "code": "",
+    "answers": [
+      "Una función que se aplica a un elemento del DOM para agregar comportamiento o manipulación",
+      "Un tipo de store que se usa para manejar eventos",
+      "Una función que se ejecuta al inicializar el componente",
+      "Un método para definir estilos dinámicos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 23,
+    "question": "¿Cómo se realiza una actualización condicional en un componente de Svelte?",
+    "code": "",
+    "answers": [
+      "Usando una declaración reactiva con `$:`",
+      "Usando el método `updateCondition`",
+      "Definiendo una función que se llama al actualizar el estado",
+      "Usando el método `conditionalUpdate` en el componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Cómo se puede optimizar el rendimiento en una aplicación de Svelte?",
+    "code": "",
+    "answers": [
+      "Usando `reactive statements` y evitando cálculos innecesarios en los bloques `{#if}`",
+      "Optimizando los métodos `beforeUpdate` y `afterUpdate`",
+      "Minimizando el uso de `stores`",
+      "Reduciendo el tamaño de los archivos `.svelte`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Cómo se maneja el estado local en Svelte?",
+    "code": "",
+    "answers": [
+      "Definiendo variables dentro del componente y usándolas en el HTML",
+      "Usando el store `writable` para crear estado local",
+      "Definiendo una clase con propiedades de estado en el componente",
+      "Usando `context API` para pasar el estado entre componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 26,
+    "question": "¿Qué es la sintaxis `{#await promise} ... {/await}` en Svelte?",
+    "code": "",
+    "answers": [
+      "Permite manejar el estado de una promesa y renderizar contenido basado en el resultado",
+      "Permite definir una función asíncrona en el componente",
+      "Ejecuta código mientras se espera una promesa",
+      "Muestra un mensaje de carga mientras se resuelve una promesa"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 27,
+    "question": "¿Cómo se define un `event handler` en Svelte?",
+    "code": "",
+    "answers": [
+      "Se define una función y se asigna a un evento usando `on:eventName={handler}`",
+      "Se define el evento directamente en el HTML del componente",
+      "Se usa el método `bindEvent` para manejar eventos",
+      "Se utiliza un objeto `events` para definir todos los manejadores"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 28,
+    "question": "¿Qué hace el modificador `|async` en una expresión en Svelte?",
+    "code": "",
+    "answers": [
+      "Permite esperar a que una promesa se resuelva y muestra el resultado",
+      "Convierte una variable en una promesa",
+      "Hace que el componente espere hasta que la promesa se resuelva",
+      "Permite definir una función asíncrona en la expresión"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 29,
+    "question": "¿Cómo se definen los estilos globales en una aplicación de Svelte?",
+    "code": "",
+    "answers": [
+      "En un archivo CSS separado que se importa en el archivo principal",
+      "Dentro de un bloque `<style>` en el componente raíz",
+      "Usando el componente `GlobalStyle`",
+      "Definiendo estilos en el archivo `main.js`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 30,
+    "question": "¿Cómo se puede manejar la comunicación entre componentes en Svelte?",
+    "code": "",
+    "answers": [
+      "Usando `props` para pasar datos de un componente padre a un hijo y `events` para emitir datos desde el hijo al padre",
+      "Usando el `context API` para compartir datos entre componentes",
+      "Definiendo variables globales en el componente raíz",
+      "Usando un `store` para compartir datos entre componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 31,
+    "question": "¿Cómo se puede actualizar un componente de forma reactiva en Svelte?",
+    "code": "",
+    "answers": [
+      "Usando la sintaxis `$: variable = valor;`",
+      "Llamando a un método `updateComponent`",
+      "Usando `component.update()`",
+      "Definiendo una función `reactiveUpdate` en el componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Qué hace la función `onMount` en Svelte?",
+    "code": "",
+    "answers": [
+      "Permite ejecutar código cuando el componente se monta en el DOM",
+      "Ejecuta código antes de que el componente se monte",
+      "Permite definir el estado inicial del componente",
+      "Permite limpiar recursos cuando el componente se desmonta"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 33,
+    "question": "¿Cómo se definen `actions` en un componente en Svelte?",
+    "code": "",
+    "answers": [
+      "Se definen como funciones que se pasan a un elemento del DOM y se ejecutan cuando el componente se monta",
+      "Se definen dentro del bloque `<script>` del componente",
+      "Se definen como métodos del componente",
+      "Se crean en un archivo separado y se importan al componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Qué es un `store` en Svelte y cómo se utiliza?",
+    "code": "",
+    "answers": [
+      "Es una forma de manejar el estado global y se utiliza importando y suscribiéndose a él",
+      "Es una función que se utiliza para definir variables globales",
+      "Es un componente que se usa para compartir datos entre otros componentes",
+      "Es un archivo que contiene todos los datos del estado global"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 35,
+    "question": "¿Cómo se maneja el enrutamiento en una aplicación Svelte con `svelte-routing`?",
+    "code": "",
+    "answers": [
+      "Importando `Router`, `Route`, y `Link` desde `svelte-routing` y definiendo rutas en el componente principal",
+      "Usando el componente `Router` de Svelte y definiendo rutas en el archivo principal",
+      "Definiendo rutas directamente en el archivo `App.svelte`",
+      "Usando `window.history` para manejar el enrutamiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 36,
+    "question": "¿Qué hace el modificador `|html` en una expresión en Svelte?",
+    "code": "",
+    "answers": [
+      "Permite insertar HTML sin escape en el DOM",
+      "Convierte una cadena en un fragmento HTML",
+      "Hace que el HTML se renderice de manera condicional",
+      "Permite ejecutar código HTML dentro de una expresión"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Cómo se implementa el lazy loading de componentes en Svelte?",
+    "code": "",
+    "answers": [
+      "Usando `import()` para cargar componentes de forma dinámica",
+      "Definiendo componentes dentro de una función que se llama cuando se necesita",
+      "Usando un componente `LazyLoader` para manejar la carga",
+      "Definiendo una propiedad `lazy` en el componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 38,
+    "question": "¿Qué hace la función `beforeUpdate` en Svelte?",
+    "code": "",
+    "answers": [
+      "Permite ejecutar código antes de que el componente se actualice",
+      "Ejecuta código después de que el componente se actualice",
+      "Permite definir el estado inicial del componente",
+      "Permite limpiar recursos cuando el componente se desmonta"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 39,
+    "question": "¿Cómo se define una animación en un componente Svelte?",
+    "code": "",
+    "answers": [
+      "Usando el bloque `<style>` y las propiedades de animación CSS",
+      "Definiendo la animación en un archivo separado y vinculándolo al componente",
+      "Usando el componente `Animate` de Svelte",
+      "Definiendo animaciones en el archivo principal de la aplicación"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 40,
+    "question": "¿Qué hace el modificador `|text` en una expresión en Svelte?",
+    "code": "",
+    "answers": [
+      "Convierte una expresión en texto plano, escapando cualquier HTML",
+      "Convierte una cadena en una expresión",
+      "Hace que el texto se renderice de manera condicional",
+      "Permite ejecutar código JavaScript dentro de una expresión"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 41,
+    "question": "¿Cómo se puede manejar la validación de formularios en Svelte?",
+    "code": "",
+    "answers": [
+      "Usando funciones de validación en eventos y controlando el estado de los campos",
+      "Definiendo reglas de validación en el archivo de estilo",
+      "Usando una biblioteca externa para validación",
+      "Creando un componente de validación y usándolo en los formularios"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Qué hace la función `afterUpdate` en Svelte?",
+    "code": "",
+    "answers": [
+      "Permite ejecutar código después de que el componente se actualice",
+      "Ejecuta código antes de que el componente se actualice",
+      "Permite definir el estado inicial del componente",
+      "Permite limpiar recursos cuando el componente se desmonta"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 43,
+    "question": "¿Cómo se definen transiciones en Svelte?",
+    "code": "",
+    "answers": [
+      "Usando el bloque `<style>` con propiedades de transición CSS",
+      "Definiendo transiciones en un archivo separado y vinculándolo al componente",
+      "Usando el componente `Transition` de Svelte",
+      "Definiendo transiciones en el archivo principal de la aplicación"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 44,
+    "question": "¿Cómo se realiza la depuración en Svelte?",
+    "code": "",
+    "answers": [
+      "Usando las herramientas de desarrollo del navegador para inspeccionar el DOM y el estado",
+      "Usando una herramienta de depuración específica de Svelte",
+      "Definiendo puntos de interrupción en el archivo `App.svelte`",
+      "Usando `console.log` para depurar el estado y los eventos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "¿Cómo se realiza el manejo de errores en un componente Svelte?",
+    "code": "",
+    "answers": [
+      "Usando bloques `try/catch` en las funciones y mostrando mensajes de error",
+      "Definiendo un componente específico para manejar errores",
+      "Usando una biblioteca externa para manejar errores",
+      "Capturando errores en el archivo principal de la aplicación"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 46,
+    "question": "¿Qué hace la función `tick` en Svelte?",
+    "code": "",
+    "answers": [
+      "Permite ejecutar código después de que el DOM se haya actualizado",
+      "Ejecuta código antes de que el DOM se actualice",
+      "Permite definir el estado inicial del componente",
+      "Permite limpiar recursos cuando el componente se desmonta"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 47,
+    "question": "¿Cómo se gestionan los eventos personalizados en Svelte?",
+    "code": "",
+    "answers": [
+      "Usando el método `dispatch` para emitir eventos desde el componente",
+      "Definiendo eventos personalizados en el archivo de estilo",
+      "Usando una biblioteca externa para gestionar eventos",
+      "Creando una función que maneja los eventos en el componente principal"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 48,
+    "question": "¿Cómo se definen componentes en Svelte?",
+    "code": "",
+    "answers": [
+      "Definiendo un archivo `.svelte` con el código del componente",
+      "Definiendo una clase en un archivo `.js`",
+      "Usando una función que retorna un objeto con el componente",
+      "Definiendo componentes en un archivo separado y exportándolos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 49,
+    "question": "¿Qué es un `slot` en Svelte?",
+    "code": "",
+    "answers": [
+      "Un área en un componente donde se puede insertar contenido desde el componente padre",
+      "Una función que se ejecuta cuando el componente se monta",
+      "Un tipo de store que se usa para compartir datos",
+      "Un componente que maneja contenido dinámico"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 50,
+    "question": "¿Cómo se implementan los `stores` en Svelte?",
+    "code": "",
+    "answers": [
+      "Importando el `store` deseado y suscribiéndose a él o actualizándolo según sea necesario",
+      "Definiendo un `store` en el archivo del componente",
+      "Usando un componente `StoreProvider` para proporcionar el estado global",
+      "Creando un archivo `stores.js` para definir todos los `stores` globales"
+    ],
+    "correctAnswerIndex": 0
+  }
+]

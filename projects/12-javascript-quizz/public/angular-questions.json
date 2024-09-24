@@ -1,0 +1,604 @@
+[
+    {
+      "id": 1,
+      "question": "¿Qué es Angular?",
+      "code": "",
+      "answers": [
+        "Un framework para aplicaciones web",
+        "Una librería para manipulación del DOM",
+        "Un lenguaje de programación",
+        "Una herramienta de diseño gráfico"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es la estructura básica de un módulo Angular?",
+      "code": "",
+      "answers": [
+        "NgModule",
+        "Component",
+        "Service",
+        "Directive"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "¿Cómo se define un componente en Angular?",
+      "code": "",
+      "answers": [
+        "@Component",
+        "@Injectable",
+        "@Directive",
+        "@NgModule"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "¿Qué es un servicio en Angular?",
+      "code": "",
+      "answers": [
+        "Una clase que se utiliza para la lógica de negocio y la gestión de datos",
+        "Un componente de interfaz de usuario",
+        "Una directiva para manipulación del DOM",
+        "Un módulo que agrupa varios componentes"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "¿Qué es una directiva en Angular?",
+      "code": "",
+      "answers": [
+        "Una instrucción para manipular el DOM",
+        "Un tipo de servicio",
+        "Un componente reutilizable",
+        "Una clase de enrutamiento"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "¿Cómo se inyecta un servicio en un componente?",
+      "code": "",
+      "answers": [
+        "Usando el constructor del componente",
+        "Usando el decorador @Injectable",
+        "Usando el método ngOnInit",
+        "Directamente en el archivo HTML"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "¿Qué es el Data Binding en Angular?",
+      "code": "",
+      "answers": [
+        "El proceso de sincronización entre el modelo y la vista",
+        "Una técnica para manejar eventos",
+        "Un método para crear componentes",
+        "Una función para hacer peticiones HTTP"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "¿Qué es el `NgModule` en Angular?",
+      "code": "",
+      "answers": [
+        "Una clase que agrupa componentes, directivas y servicios",
+        "Una directiva para manipular formularios",
+        "Un servicio para la gestión de rutas",
+        "Un componente para mostrar datos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "¿Qué es el enrutamiento en Angular?",
+      "code": "",
+      "answers": [
+        "El proceso de navegación entre diferentes vistas o componentes",
+        "La configuración de servicios en una aplicación",
+        "La definición de directivas en un módulo",
+        "La creación de nuevos módulos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "¿Cómo se manejan los formularios en Angular?",
+      "code": "",
+      "answers": [
+        "Usando Reactive Forms o Template-driven Forms",
+        "Usando servicios de datos",
+        "Usando directivas personalizadas",
+        "Usando el enrutamiento"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "¿Qué es `ngOnInit` en Angular?",
+      "code": "",
+      "answers": [
+        "Un método del ciclo de vida del componente que se llama al inicializar el componente",
+        "Un servicio para manejar el estado",
+        "Un método para destruir un componente",
+        "Un hook para manejar eventos del DOM"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "¿Cómo se usa el decorador `@Input` en un componente?",
+      "code": "",
+      "answers": [
+        "Para definir propiedades que pueden recibir valores desde un componente padre",
+        "Para definir métodos del componente",
+        "Para crear instancias de servicios",
+        "Para registrar el componente en un módulo"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "¿Qué hace el decorador `@Output`?",
+      "code": "",
+      "answers": [
+        "Permite emitir eventos desde un componente hijo hacia el componente padre",
+        "Define propiedades del componente",
+        "Maneja el enrutamiento en una aplicación",
+        "Configura servicios para el componente"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "¿Qué es el `HttpClient` en Angular?",
+      "code": "",
+      "answers": [
+        "Un servicio para hacer peticiones HTTP",
+        "Un componente para mostrar datos",
+        "Una directiva para manejar formularios",
+        "Una librería para el enrutamiento"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "¿Qué hace la función `subscribe()` en Angular?",
+      "code": "",
+      "answers": [
+        "Permite manejar los resultados de un Observable",
+        "Define un nuevo servicio",
+        "Configura una directiva",
+        "Crea un nuevo componente"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "¿Qué es `ngModel`?",
+      "code": "",
+      "answers": [
+        "Una directiva para enlazar datos en formularios",
+        "Un servicio para manejar eventos",
+        "Un decorador para servicios",
+        "Un componente de enrutamiento"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "¿Qué es una directiva estructural?",
+      "code": "",
+      "answers": [
+        "Una directiva que cambia la estructura del DOM, como `*ngIf` o `*ngFor`",
+        "Una directiva para aplicar estilos",
+        "Un componente que maneja eventos",
+        "Un servicio para manipular datos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "¿Qué es el `ChangeDetectionStrategy`?",
+      "code": "",
+      "answers": [
+        "Una estrategia para detectar y manejar cambios en los componentes",
+        "Una función para manejar eventos del DOM",
+        "Una directiva para aplicar estilos",
+        "Una clase para gestionar el enrutamiento"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "¿Qué es el `RouterModule` en Angular?",
+      "code": "",
+      "answers": [
+        "Un módulo que configura el enrutamiento en una aplicación Angular",
+        "Un servicio para gestionar el estado",
+        "Una directiva para manipular formularios",
+        "Un componente para manejar la lógica de negocio"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "¿Cómo se define una ruta en Angular?",
+      "code": "",
+      "answers": [
+        "En el objeto de rutas del RouterModule",
+        "En el archivo de configuración del módulo",
+        "En la clase del componente",
+        "En el archivo de estilo CSS"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "¿Qué es un `Observable` en Angular?",
+      "code": "",
+      "answers": [
+        "Una fuente de datos que puede emitir valores de forma asíncrona",
+        "Una directiva para manipular el DOM",
+        "Una función para manejar eventos",
+        "Un componente para mostrar datos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "¿Cómo se inyecta un servicio en un componente?",
+      "code": "",
+      "answers": [
+        "A través del constructor del componente",
+        "Usando el método ngOnInit",
+        "Directamente en el archivo HTML",
+        "En el archivo de estilos del componente"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "¿Qué es el `Angular CLI`?",
+      "code": "",
+      "answers": [
+        "Una herramienta de línea de comandos para crear y gestionar proyectos Angular",
+        "Una librería para manejo de estilos",
+        "Un servicio para manejar peticiones HTTP",
+        "Un componente para visualización de datos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "¿Qué es `ngOnDestroy`?",
+      "code": "",
+      "answers": [
+        "Un método del ciclo de vida del componente que se llama al destruir el componente",
+        "Un método para inicializar el componente",
+        "Un servicio para manejar eventos",
+        "Un componente para mostrar datos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "¿Qué es el `@NgModule` en Angular?",
+      "code": "",
+      "answers": [
+        "Un decorador que define un módulo en Angular",
+        "Una directiva para manipular datos",
+        "Un componente para mostrar vistas",
+        "Un servicio para manejar peticiones HTTP"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 26,
+      "question": "¿Cómo se pueden definir parámetros en una ruta Angular?",
+      "code": "",
+      "answers": [
+        "Usando el símbolo `:` en la definición de la ruta",
+        "Directamente en el archivo de componente",
+        "En el archivo de estilos CSS",
+        "En el archivo de configuración del módulo"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "¿Qué es el `RouterLink` en Angular?",
+      "code": "",
+      "answers": [
+        "Una directiva para enlazar a una ruta específica",
+        "Un servicio para manejar el enrutamiento",
+        "Un componente para mostrar datos",
+        "Una función para inicializar el módulo"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "¿Qué hace el decorador `@Injectable`?",
+      "code": "",
+      "answers": [
+        "Permite que una clase pueda ser inyectada como un servicio",
+        "Define un nuevo componente",
+        "Configura un módulo",
+        "Crea un nuevo servicio"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "¿Qué es un módulo raíz en Angular?",
+      "code": "",
+      "answers": [
+        "El módulo principal que arranca la aplicación Angular",
+        "Un módulo para manejar formularios",
+        "Un módulo para servicios",
+        "Un módulo para enrutamiento"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "¿Qué es el `ChangeDetectorRef` en Angular?",
+      "code": "",
+      "answers": [
+        "Un servicio que permite manualmente detectar y gestionar cambios en la vista",
+        "Una directiva para manejar formularios",
+        "Un método para inicializar componentes",
+        "Un módulo para el enrutamiento"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "¿Qué es el `HttpInterceptor`?",
+      "code": "",
+      "answers": [
+        "Una interfaz que permite interceptar y modificar peticiones HTTP",
+        "Una directiva para manejar eventos",
+        "Un servicio para gestionar el estado",
+        "Un componente para mostrar datos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 32,
+      "question": "¿Qué es el `ngClass` en Angular?",
+      "code": "",
+      "answers": [
+        "Una directiva para aplicar o eliminar clases CSS en función de una expresión",
+        "Un servicio para manejar eventos",
+        "Un componente para mostrar datos",
+        "Un módulo para gestión de formularios"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "¿Cómo se crea un módulo en Angular?",
+      "code": "",
+      "answers": [
+        "Usando el decorador `@NgModule`",
+        "Usando el método `createModule`",
+        "Definiendo un nuevo componente",
+        "Declarando un servicio"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 34,
+      "question": "¿Qué es el `@ViewChild` en Angular?",
+      "code": "",
+      "answers": [
+        "Un decorador que permite acceder a un elemento del DOM o a un componente hijo",
+        "Una directiva para manipular formularios",
+        "Un método para manejar peticiones HTTP",
+        "Un módulo para el enrutamiento"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 35,
+      "question": "¿Qué es un `Guard` en Angular?",
+      "code": "",
+      "answers": [
+        "Una interfaz para proteger rutas y controlar el acceso",
+        "Un componente para manejar eventos",
+        "Una directiva para manipular el DOM",
+        "Un servicio para manejar el estado"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 36,
+      "question": "¿Qué hace el decorador `@HostListener`?",
+      "code": "",
+      "answers": [
+        "Permite escuchar eventos del DOM en un componente",
+        "Define una directiva para estilos",
+        "Maneja el enrutamiento",
+        "Inicializa un componente"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "¿Qué es el `ngFor`?",
+      "code": "",
+      "answers": [
+        "Una directiva estructural que itera sobre una colección",
+        "Un servicio para manejar datos",
+        "Un componente para mostrar formularios",
+        "Una función para manejar eventos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "¿Cómo se realiza la comunicación entre componentes en Angular?",
+      "code": "",
+      "answers": [
+        "Usando `@Input` y `@Output`",
+        "Usando servicios compartidos",
+        "Usando directivas",
+        "Usando el enrutamiento"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 39,
+      "question": "¿Qué es el `ngStyle` en Angular?",
+      "code": "",
+      "answers": [
+        "Una directiva para aplicar estilos en función de una expresión",
+        "Una directiva para manejar formularios",
+        "Un servicio para el enrutamiento",
+        "Un componente para mostrar datos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "¿Qué hace el método `ngAfterViewInit`?",
+      "code": "",
+      "answers": [
+        "Se llama después de que la vista del componente ha sido inicializada",
+        "Se llama antes de que el componente sea destruido",
+        "Se llama al inicializar el componente",
+        "Se llama al destruir el componente"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "¿Qué es un `Pipe` en Angular?",
+      "code": "",
+      "answers": [
+        "Una clase que transforma datos para ser mostrados en la vista",
+        "Una directiva para aplicar estilos",
+        "Un servicio para manejar eventos",
+        "Un componente para mostrar datos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "¿Qué es un `Reactive Form` en Angular?",
+      "code": "",
+      "answers": [
+        "Un enfoque para manejar formularios mediante programación reactiva",
+        "Un formulario que se crea usando HTML",
+        "Un servicio para validar datos",
+        "Un componente para mostrar formularios"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 43,
+      "question": "¿Qué es el `FormControl` en Angular?",
+      "code": "",
+      "answers": [
+        "Una clase que representa un control en un formulario reactivo",
+        "Una directiva para manejar eventos",
+        "Un componente para mostrar formularios",
+        "Un servicio para manejar datos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 44,
+      "question": "¿Qué es el `FormGroup` en Angular?",
+      "code": "",
+      "answers": [
+        "Una clase que agrupa varios `FormControl` en un formulario",
+        "Una directiva para aplicar estilos",
+        "Un componente para mostrar datos",
+        "Un servicio para el enrutamiento"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "¿Qué es el `ngModel` en Angular?",
+      "code": "",
+      "answers": [
+        "Una directiva para enlazar datos en formularios",
+        "Un componente para mostrar datos",
+        "Una directiva para manipular el DOM",
+        "Un servicio para manejar eventos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 46,
+      "question": "¿Qué hace el `ngIf` en Angular?",
+      "code": "",
+      "answers": [
+        "Muestra u oculta elementos del DOM en función de una expresión boolean",
+        "Aplica estilos condicionalmente",
+        "Maneja el enrutamiento",
+        "Define un nuevo componente"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 47,
+      "question": "¿Qué es un `Guard` en Angular?",
+      "code": "",
+      "answers": [
+        "Una interfaz para proteger rutas y controlar el acceso",
+        "Una directiva para manejar eventos",
+        "Un servicio para gestionar datos",
+        "Un componente para mostrar datos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 48,
+      "question": "¿Qué es el `ngSwitch` en Angular?",
+      "code": "",
+      "answers": [
+        "Una directiva estructural que muestra un elemento en función de una expresión",
+        "Un servicio para manejar datos",
+        "Un componente para mostrar formularios",
+        "Una directiva para aplicar estilos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "¿Qué es el `Renderer2` en Angular?",
+      "code": "",
+      "answers": [
+        "Un servicio para interactuar con el DOM de manera segura y abstracta",
+        "Una directiva para manipular formularios",
+        "Un componente para mostrar datos",
+        "Un módulo para el enrutamiento"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 50,
+      "question": "¿Qué hace el método `ngOnDestroy`?",
+      "code": "",
+      "answers": [
+        "Se llama cuando el componente está a punto de ser destruido",
+        "Se llama cuando el componente ha sido inicializado",
+        "Se llama antes de que el componente sea destruido",
+        "Se llama después de que la vista del componente ha sido inicializada"
+      ],
+      "correctAnswerIndex": 0
+    }
+]
+  
+  

@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué es TypeScript?",
+    "code": "",
+    "answers": [
+      "Un superset de JavaScript que añade tipado estático",
+      "Un compilador para JavaScript",
+      "Una biblioteca para manejar el DOM",
+      "Un lenguaje de programación funcional"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Cómo se declara una variable de tipo `string` en TypeScript?",
+    "code": "",
+    "answers": [
+      "let myString: string;",
+      "var myString: String;",
+      "const myString: str;",
+      "let myString: text;"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Cuál es la diferencia entre `interface` y `type` en TypeScript?",
+    "code": "",
+    "answers": [
+      "`interface` se usa para definir la forma de un objeto, mientras que `type` puede ser usado para definir tipos más complejos",
+      "`interface` es para clases y `type` para objetos",
+      "No hay diferencia; son intercambiables",
+      "`type` se usa para tipos primitivos, `interface` para objetos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Cómo se define una función que toma dos números y devuelve su suma en TypeScript?",
+    "code": "",
+    "answers": [
+      "function add(a: number, b: number): number { return a + b; }",
+      "function add(a: Number, b: Number): Number { return a + b; }",
+      "function add(a: int, b: int): int { return a + b; }",
+      "function add(a, b): number { return a + b; }"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Qué hace el modificador `readonly` en TypeScript?",
+    "code": "",
+    "answers": [
+      "Hace que una propiedad no pueda ser modificada después de su inicialización",
+      "Hace que una propiedad solo pueda ser leída",
+      "Hace que una propiedad sea de solo lectura en la interfaz",
+      "Permite que la propiedad sea modificada solo una vez"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Cómo se define un tipo de unión en TypeScript?",
+    "code": "",
+    "answers": [
+      "let value: string | number;",
+      "let value: String & Number;",
+      "let value: string + number;",
+      "let value: (string, number);"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Qué es un tipo genérico en TypeScript?",
+    "code": "",
+    "answers": [
+      "Un tipo que puede trabajar con cualquier tipo de dato",
+      "Un tipo que solo se puede usar con ciertos tipos de datos",
+      "Un tipo que define un conjunto de valores",
+      "Un tipo específico de datos primitivos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Cómo se usa la palabra clave `extends` en una interfaz en TypeScript?",
+    "code": "",
+    "answers": [
+      "Para crear una interfaz que extienda otra interfaz",
+      "Para definir una clase que herede de una interfaz",
+      "Para declarar un tipo que extiende una clase",
+      "Para definir un tipo que herede de otro tipo"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Qué es una `tuple` en TypeScript?",
+    "code": "",
+    "answers": [
+      "Un tipo de datos que permite almacenar un conjunto de valores de tipos diferentes",
+      "Un array de tamaño fijo con valores del mismo tipo",
+      "Una colección de valores inmutables",
+      "Un tipo de datos para objetos con propiedades opcionales"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "¿Cómo se define un tipo de `enum` en TypeScript?",
+    "code": "",
+    "answers": [
+      "enum Color { Red, Green, Blue }",
+      "enum Color: { Red, Green, Blue }",
+      "type Color = { Red, Green, Blue }",
+      "const Color = { Red, Green, Blue }"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 11,
+    "question": "¿Qué hace el modificador `public` en una clase en TypeScript?",
+    "code": "",
+    "answers": [
+      "Hace que una propiedad o método sea accesible desde fuera de la clase",
+      "Hace que una propiedad o método sea privado a la clase",
+      "Hace que una propiedad o método sea protegido dentro de la clase",
+      "Permite que una propiedad o método sea estático"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "¿Cómo se define un tipo `interface` que acepta una función en TypeScript?",
+    "code": "",
+    "answers": [
+      "interface MyFunction { (x: number, y: number): number; }",
+      "interface MyFunction { x: number; y: number; }",
+      "interface MyFunction { x: (a: number) => number; }",
+      "interface MyFunction { function x(a: number, b: number): number; }"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "¿Qué hace la palabra clave `as` en TypeScript?",
+    "code": "",
+    "answers": [
+      "Realiza una conversión de tipo",
+      "Define una clase base",
+      "Declara una interfaz",
+      "Extiende una clase"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "¿Cómo se define una clase con un constructor en TypeScript?",
+    "code": "",
+    "answers": [
+      "class Person { constructor(public name: string) {} }",
+      "class Person { constructor(name: string) { this.name = name; } }",
+      "class Person { constructor(name: String) {} }",
+      "class Person { constructor(public name: String) {} }"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 15,
+    "question": "¿Qué es un `type guard` en TypeScript?",
+    "code": "",
+    "answers": [
+      "Una función que verifica el tipo de una variable en tiempo de ejecución",
+      "Un tipo de datos para realizar operaciones matemáticas",
+      "Una estructura para manejar errores",
+      "Un mecanismo para asegurar la herencia en clases"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "¿Qué es el `type assertion` en TypeScript?",
+    "code": "",
+    "answers": [
+      "Una forma de decirle al compilador el tipo de una variable",
+      "Una forma de declarar una variable",
+      "Una forma de definir un tipo genérico",
+      "Una manera de crear un tipo de enumeración"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "¿Cómo se define un `interface` que hereda de otro `interface` en TypeScript?",
+    "code": "",
+    "answers": [
+      "interface Extended extends Base {}",
+      "interface Extended extends Base() {}",
+      "interface Extended = Base {}",
+      "interface Extended: Base {}"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "¿Qué es el `type` `never` en TypeScript?",
+    "code": "",
+    "answers": [
+      "Un tipo que representa valores que nunca ocurren",
+      "Un tipo que representa cualquier valor",
+      "Un tipo que representa valores indefinidos",
+      "Un tipo que representa valores de error"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Cómo se define un tipo `tuple` con valores de tipos diferentes en TypeScript?",
+    "code": "",
+    "answers": [
+      "let myTuple: [string, number] = ['hello', 10];",
+      "let myTuple: [string, number] = { 'hello', 10 };",
+      "let myTuple: [string, number] = ('hello', 10);",
+      "let myTuple: (string, number) = ['hello', 10];"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "¿Cómo se define un `interface` con propiedades opcionales en TypeScript?",
+    "code": "",
+    "answers": [
+      "interface MyInterface { name?: string; }",
+      "interface MyInterface { name: string?; }",
+      "interface MyInterface { name: Optional<string>; }",
+      "interface MyInterface { name: string; }"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 21,
+    "question": "¿Qué hace la palabra clave `abstract` en una clase en TypeScript?",
+    "code": "",
+    "answers": [
+      "Define una clase que no se puede instanciar directamente y puede tener métodos abstractos",
+      "Define una clase que puede ser instanciada pero no puede ser heredada",
+      "Define una clase que solo puede ser instanciada una vez",
+      "Define una clase con métodos estáticos únicamente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 22,
+    "question": "¿Cómo se define un tipo `union` en TypeScript?",
+    "code": "",
+    "answers": [
+      "let value: string | number;",
+      "let value: (string, number);",
+      "let value: string and number;",
+      "let value: string + number;"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 23,
+    "question": "¿Cómo se declara un tipo `function` en TypeScript?",
+    "code": "",
+    "answers": [
+      "type MyFunction = (x: number, y: number) => number;",
+      "type MyFunction = function(x: number, y: number): number;",
+      "function MyFunction(x: number, y: number): number;",
+      "MyFunction: (x: number, y: number) => number;"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Qué hace la palabra clave `export` en TypeScript?",
+    "code": "",
+    "answers": [
+      "Permite que una clase, función o variable sea accesible desde otros módulos",
+      "Define una variable global en el módulo",
+      "Especifica el tipo de datos que se exportan",
+      "Restringe el acceso a una clase o función"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Cómo se define un tipo `class` en TypeScript?",
+    "code": "",
+    "answers": [
+      "class MyClass { property: string; constructor(property: string) { this.property = property; } }",
+      "class MyClass { property: string; constructor(property) { this.property = property; } }",
+      "class MyClass { constructor(public property: string) {} }",
+      "class MyClass { property: String; constructor(property: String) {} }"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 26,
+    "question": "¿Cómo se accede a un valor de un tipo `enum` en TypeScript?",
+    "code": "",
+    "answers": [
+      "EnumName.Value",
+      "EnumName['Value']",
+      "EnumName.get('Value')",
+      "EnumName.getValue('Value')"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 27,
+    "question": "¿Qué es un `type` `intersection` en TypeScript?",
+    "code": "",
+    "answers": [
+      "Un tipo que combina múltiples tipos en uno",
+      "Un tipo que se usa para definir una relación entre clases",
+      "Un tipo que solo puede ser uno de los tipos especificados",
+      "Un tipo que hereda propiedades de un tipo base"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 28,
+    "question": "¿Cómo se define una propiedad `static` en una clase en TypeScript?",
+    "code": "",
+    "answers": [
+      "static property: string;",
+      "property: static string;",
+      "static string property;",
+      "property: string static;"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 29,
+    "question": "¿Qué es `type inference` en TypeScript?",
+    "code": "",
+    "answers": [
+      "El proceso por el cual el compilador infiere el tipo de una variable basándose en su valor",
+      "El proceso de convertir un tipo en otro tipo explícitamente",
+      "El proceso de definir tipos a través de inferencias matemáticas",
+      "El proceso de deducir el tipo de datos a partir de una cadena de texto"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 30,
+    "question": "¿Qué es `declaration merging` en TypeScript?",
+    "code": "",
+    "answers": [
+      "Una característica que permite combinar múltiples declaraciones de una interfaz o tipo en una sola",
+      "Una técnica para fusionar datos en una clase",
+      "Un método para combinar propiedades de múltiples objetos",
+      "Una técnica para unir múltiples módulos en uno solo"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 31,
+    "question": "¿Cómo se define una propiedad `readonly` en un `interface` en TypeScript?",
+    "code": "",
+    "answers": [
+      "readonly property: string;",
+      "property: readonly string;",
+      "readonly: string property;",
+      "property readonly: string;"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Qué es un `namespace` en TypeScript?",
+    "code": "",
+    "answers": [
+      "Una forma de agrupar tipos, interfaces y funciones relacionados",
+      "Una clase que agrupa varios tipos de datos",
+      "Un objeto global para manejar variables",
+      "Una herramienta para definir módulos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 33,
+    "question": "¿Cómo se definen parámetros opcionales en una función en TypeScript?",
+    "code": "",
+    "answers": [
+      "function greet(name?: string) { ... }",
+      "function greet(name: string?) { ... }",
+      "function greet(name: Optional<string>) { ... }",
+      "function greet(name: string | undefined) { ... }"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Cómo se usa el operador `in` en una función de tipo en TypeScript?",
+    "code": "",
+    "answers": [
+      "Para verificar si una propiedad existe en un objeto",
+      "Para combinar dos tipos",
+      "Para definir un tipo de función",
+      "Para asignar un tipo a una variable"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 35,
+    "question": "¿Qué es una `conditional type` en TypeScript?",
+    "code": "",
+    "answers": [
+      "Un tipo que selecciona uno de los dos posibles tipos basado en una condición",
+      "Un tipo que se usa en condiciones lógicas",
+      "Un tipo que combina tipos diferentes",
+      "Un tipo que define condiciones para propiedades opcionales"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 36,
+    "question": "¿Cómo se define un tipo `function` que puede tomar un número variable de argumentos en TypeScript?",
+    "code": "",
+    "answers": [
+      "function sum(...args: number[]): number { ... }",
+      "function sum(args: number[]): number { ... }",
+      "function sum(...args: Array<number>): number { ... }",
+      "function sum(args: Array<number>): number { ... }"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Qué hace el modificador `protected` en TypeScript?",
+    "code": "",
+    "answers": [
+      "Hace que una propiedad o método sea accesible solo dentro de la clase y sus subclases",
+      "Hace que una propiedad o método sea accesible solo dentro de la clase",
+      "Hace que una propiedad o método sea accesible solo fuera de la clase",
+      "Permite que la propiedad o método sea accedido solo dentro del módulo"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 38,
+    "question": "¿Cómo se define un tipo de objeto con propiedades opcionales en TypeScript?",
+    "code": "",
+    "answers": [
+      "type MyObject = { name?: string; age?: number; };",
+      "type MyObject = { name: string?; age: number?; };",
+      "type MyObject = { name: string; age: number; }?",
+      "type MyObject = { name?: string | undefined; age?: number | undefined; };"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 39,
+    "question": "¿Qué es el `unknown` tipo en TypeScript?",
+    "code": "",
+    "answers": [
+      "Un tipo que representa valores cuyo tipo no se conoce en tiempo de compilación y necesita ser verificado antes de su uso",
+      "Un tipo que representa cualquier valor",
+      "Un tipo que representa un valor indefinido",
+      "Un tipo para errores en tiempo de ejecución"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 40,
+    "question": "¿Cómo se define un tipo `tuple` en TypeScript?",
+    "code": "",
+    "answers": [
+      "let myTuple: [string, number];",
+      "let myTuple: (string, number);",
+      "let myTuple: [string | number];",
+      "let myTuple: [string, ...number[]];"
+    ],
+    "correctAnswerIndex": 0
+  }
+]

@@ -1,0 +1,1 @@
+import{jsxs as _jsxs}from"react/jsx-runtime";const GithubPage=({routeParams})=>/*#__PURE__*/_jsxs("h1",{children:["Github ",routeParams.username]});export default GithubPage;

@@ -1,0 +1,603 @@
+[
+    {
+      "id": 1,
+      "question": "¿Qué propiedad CSS se utiliza para cambiar el color del texto?",
+      "code": "",
+      "answers": [
+        "color",
+        "background-color",
+        "font-color",
+        "text-color"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "¿Cómo se define el tamaño de la fuente en CSS?",
+      "code": "",
+      "answers": [
+        "font-size",
+        "text-size",
+        "size",
+        "font"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "¿Qué propiedad CSS se utiliza para cambiar el fondo de un elemento?",
+      "code": "",
+      "answers": [
+        "background",
+        "background-color",
+        "color",
+        "bgcolor"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "¿Qué propiedad CSS se utiliza para aplicar un borde a un elemento?",
+      "code": "",
+      "answers": [
+        "border",
+        "outline",
+        "edge",
+        "margin"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "¿Cómo se alinea el texto al centro en CSS?",
+      "code": "",
+      "answers": [
+        "text-align: center",
+        "align: center",
+        "text-position: center",
+        "center-align"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "¿Qué propiedad CSS controla el espaciado entre letras?",
+      "code": "",
+      "answers": [
+        "letter-spacing",
+        "word-spacing",
+        "line-height",
+        "font-spacing"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "¿Cómo se establece el margen de un elemento en CSS?",
+      "code": "",
+      "answers": [
+        "margin",
+        "padding",
+        "border-spacing",
+        "spacing"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "¿Qué propiedad CSS se utiliza para cambiar el tipo de fuente?",
+      "code": "",
+      "answers": [
+        "font-family",
+        "font-type",
+        "text-family",
+        "font-style"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "¿Cómo se oculta un elemento en CSS?",
+      "code": "",
+      "answers": [
+        "display: none",
+        "visibility: hidden",
+        "opacity: 0",
+        "hidden: true"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "¿Qué propiedad CSS se utiliza para definir la forma de los bordes?",
+      "code": "",
+      "answers": [
+        "border-radius",
+        "border-shape",
+        "border-style",
+        "corner-radius"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "¿Qué propiedad CSS se utiliza para definir el espacio interior de un elemento?",
+      "code": "",
+      "answers": [
+        "padding",
+        "margin",
+        "border",
+        "spacing"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "¿Cómo se aplica una sombra a un texto en CSS?",
+      "code": "",
+      "answers": [
+        "text-shadow",
+        "shadow",
+        "box-shadow",
+        "text-effect"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "¿Qué propiedad CSS se utiliza para cambiar el estilo de un borde?",
+      "code": "",
+      "answers": [
+        "border-style",
+        "border-type",
+        "border-pattern",
+        "border-color"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "¿Cómo se alinea un elemento a la derecha en CSS?",
+      "code": "",
+      "answers": [
+        "float: right",
+        "text-align: right",
+        "align: right",
+        "margin-left: auto"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "¿Qué propiedad CSS controla la visibilidad de un elemento?",
+      "code": "",
+      "answers": [
+        "visibility",
+        "display",
+        "opacity",
+        "position"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "¿Qué propiedad CSS se utiliza para definir la posición de un elemento?",
+      "code": "",
+      "answers": [
+        "position",
+        "align",
+        "float",
+        "margin"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "¿Cómo se establece el color de fondo de un elemento en CSS?",
+      "code": "",
+      "answers": [
+        "background-color",
+        "bgcolor",
+        "color",
+        "background"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "¿Qué propiedad CSS se utiliza para controlar el tamaño de un elemento?",
+      "code": "",
+      "answers": [
+        "width y height",
+        "size",
+        "dimension",
+        "scale"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "¿Cómo se aplica una fuente en negrita en CSS?",
+      "code": "",
+      "answers": [
+        "font-weight: bold",
+        "font-style: bold",
+        "text-weight: bold",
+        "weight: bold"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "¿Qué propiedad CSS controla el espaciado entre líneas de texto?",
+      "code": "",
+      "answers": [
+        "line-height",
+        "text-spacing",
+        "line-spacing",
+        "font-spacing"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "¿Cómo se alinea el contenido de un elemento en el centro verticalmente en CSS?",
+      "code": "",
+      "answers": [
+        "vertical-align",
+        "align-content",
+        "center",
+        "middle"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "¿Qué propiedad CSS se utiliza para definir el diseño de un contenedor en CSS Flexbox?",
+      "code": "",
+      "answers": [
+        "display: flex",
+        "flex-direction",
+        "align-items",
+        "flex-wrap"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "¿Qué propiedad CSS se utiliza para definir la posición de un elemento en CSS Grid?",
+      "code": "",
+      "answers": [
+        "grid-area",
+        "position",
+        "layout",
+        "place-items"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "¿Cómo se agrega un espacio entre columnas en CSS Grid?",
+      "code": "",
+      "answers": [
+        "grid-column-gap",
+        "column-gap",
+        "grid-gap",
+        "gap"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "¿Qué propiedad CSS se utiliza para definir un color de borde en CSS?",
+      "code": "",
+      "answers": [
+        "border-color",
+        "border-style",
+        "border-width",
+        "color"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 26,
+      "question": "¿Cómo se establece la opacidad de un elemento en CSS?",
+      "code": "",
+      "answers": [
+        "opacity",
+        "visibility",
+        "transparent",
+        "filter"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "¿Qué propiedad CSS se utiliza para definir el tipo de borde?",
+      "code": "",
+      "answers": [
+        "border-style",
+        "border-width",
+        "border-color",
+        "border-type"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "¿Qué propiedad CSS se utiliza para ajustar el contenido de un elemento al tamaño del contenedor?",
+      "code": "",
+      "answers": [
+        "object-fit",
+        "fit-content",
+        "size",
+        "overflow"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "¿Cómo se aplica un borde redondeado a un elemento en CSS?",
+      "code": "",
+      "answers": [
+        "border-radius",
+        "border-corner",
+        "corner-radius",
+        "radius"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "¿Qué propiedad CSS se utiliza para aplicar un efecto de transición en un elemento?",
+      "code": "",
+      "answers": [
+        "transition",
+        "animation",
+        "transform",
+        "effect"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "¿Qué propiedad CSS se utiliza para aplicar un efecto de escala en un elemento?",
+      "code": "",
+      "answers": [
+        "transform: scale()",
+        "scale",
+        "zoom",
+        "resize"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 32,
+      "question": "¿Cómo se define un color de fondo degradado en CSS?",
+      "code": "",
+      "answers": [
+        "background: linear-gradient()",
+        "background: gradient()",
+        "background-color: gradient()",
+        "color: gradient()"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "¿Qué propiedad CSS se utiliza para ocultar el desbordamiento de un elemento?",
+      "code": "",
+      "answers": [
+        "overflow",
+        "hidden",
+        "clip",
+        "visibility"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 34,
+      "question": "¿Cómo se define una fuente de texto en CSS?",
+      "code": "",
+      "answers": [
+        "font-family",
+        "font-type",
+        "text-font",
+        "font-style"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 35,
+      "question": "¿Qué propiedad CSS se utiliza para cambiar el tamaño del contenedor en Flexbox?",
+      "code": "",
+      "answers": [
+        "flex",
+        "flex-basis",
+        "flex-grow",
+        "flex-shrink"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 36,
+      "question": "¿Cómo se define un elemento fijo en CSS?",
+      "code": "",
+      "answers": [
+        "position: fixed",
+        "position: absolute",
+        "position: relative",
+        "position: static"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "¿Qué propiedad CSS se utiliza para agregar espacio alrededor del contenido de un elemento?",
+      "code": "",
+      "answers": [
+        "padding",
+        "margin",
+        "border",
+        "spacing"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "¿Qué propiedad CSS se utiliza para cambiar la alineación de texto en un elemento de bloque?",
+      "code": "",
+      "answers": [
+        "text-align",
+        "align",
+        "text-position",
+        "align-text"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 39,
+      "question": "¿Cómo se oculta el contenido que excede el área de un elemento?",
+      "code": "",
+      "answers": [
+        "overflow: hidden",
+        "visibility: hidden",
+        "display: none",
+        "clip"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "¿Qué propiedad CSS controla la cantidad de espacio entre palabras en un texto?",
+      "code": "",
+      "answers": [
+        "word-spacing",
+        "letter-spacing",
+        "line-height",
+        "text-spacing"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "¿Qué propiedad CSS se utiliza para aplicar un borde a un elemento?",
+      "code": "",
+      "answers": [
+        "border",
+        "outline",
+        "edge",
+        "line"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "¿Cómo se aplica un borde punteado en CSS?",
+      "code": "",
+      "answers": [
+        "border-style: dotted",
+        "border-style: dashed",
+        "border-type: dotted",
+        "border-color: dotted"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 43,
+      "question": "¿Qué propiedad CSS se utiliza para definir el color del texto de un enlace?",
+      "code": "",
+      "answers": [
+        "color",
+        "text-color",
+        "link-color",
+        "font-color"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 44,
+      "question": "¿Qué propiedad CSS controla la opacidad de un elemento?",
+      "code": "",
+      "answers": [
+        "opacity",
+        "visibility",
+        "transparency",
+        "filter"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "¿Qué propiedad CSS se utiliza para cambiar la altura de una línea de texto?",
+      "code": "",
+      "answers": [
+        "line-height",
+        "text-height",
+        "height",
+        "font-height"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 46,
+      "question": "¿Qué propiedad CSS se utiliza para definir el espacio entre los elementos flexibles en un contenedor Flexbox?",
+      "code": "",
+      "answers": [
+        "justify-content",
+        "align-items",
+        "flex-spacing",
+        "align-content"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 47,
+      "question": "¿Cómo se define el tamaño de una columna en CSS Grid?",
+      "code": "",
+      "answers": [
+        "grid-template-columns",
+        "column-width",
+        "grid-column-size",
+        "column-size"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 48,
+      "question": "¿Qué propiedad CSS se utiliza para controlar el tamaño de los márgenes en un contenedor Flexbox?",
+      "code": "",
+      "answers": [
+        "margin",
+        "flex-margin",
+        "align-items",
+        "justify-content"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "¿Qué propiedad CSS se utiliza para aplicar un efecto de desenfoque a un elemento?",
+      "code": "",
+      "answers": [
+        "filter: blur()",
+        "blur",
+        "focus",
+        "effect: blur()"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 50,
+      "question": "¿Cómo se define una animación en CSS?",
+      "code": "",
+      "answers": [
+        "@keyframes y animation",
+        "animation",
+        "@animation",
+        "@keyframes"
+      ],
+      "correctAnswerIndex": 0
+    }
+]
+  

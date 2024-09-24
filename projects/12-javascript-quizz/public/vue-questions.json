@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué es Vue.js?",
+    "code": "",
+    "answers": [
+      "Un framework de JavaScript para construir interfaces de usuario",
+      "Una biblioteca para manipular el DOM",
+      "Un lenguaje de programación",
+      "Un sistema de gestión de bases de datos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Cómo se define un componente en Vue.js?",
+    "code": "",
+    "answers": [
+      "Usando la función `Vue.component()`",
+      "Definiendo un objeto con propiedades y métodos",
+      "Utilizando el decorador `@Component`",
+      "A través de una directiva `v-component`"
+    ],
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "¿Qué es `v-bind` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Una directiva para enlazar atributos a propiedades del componente",
+      "Un método para modificar el estado del componente",
+      "Una función para manejar eventos",
+      "Un objeto para gestionar rutas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Cómo se maneja el estado en Vue.js?",
+    "code": "",
+    "answers": [
+      "Usando el objeto `data` y el sistema de reactividad",
+      "Mediante la API de `localStorage`",
+      "Utilizando el objeto `state` en un componente",
+      "Con un servicio de gestión de estado externo"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Qué es `v-model` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Una directiva para crear enlaces bidireccionales en formularios",
+      "Un método para gestionar eventos",
+      "Una función para modificar el DOM",
+      "Un componente para mostrar datos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Cómo se emite un evento personalizado en Vue.js?",
+    "code": "",
+    "answers": [
+      "Usando el método `$emit()`",
+      "Llamando a la función `emitEvent()`",
+      "Utilizando el método `dispatch()`",
+      "Definiendo un nuevo evento en el objeto `data`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Qué es el `Vue Router`?",
+    "code": "",
+    "answers": [
+      "Una biblioteca para manejar el enrutamiento en una aplicación Vue.js",
+      "Una directiva para enlazar datos",
+      "Un componente para mostrar datos",
+      "Un método para gestionar el estado"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Qué hace la directiva `v-if` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Muestra u oculta un elemento basado en una condición",
+      "Aplica una clase CSS condicionalmente",
+      "Enlaza un atributo a una propiedad",
+      "Gestiona el enrutamiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cómo se definen métodos en un componente Vue.js?",
+    "code": "",
+    "answers": [
+      "En el objeto `methods` del componente",
+      "Directamente en el objeto `data`",
+      "Usando la función `Vue.methods()`",
+      "En el archivo de estilos CSS"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "¿Qué es `Vuex`?",
+    "code": "",
+    "answers": [
+      "Una biblioteca para manejar el estado global en aplicaciones Vue.js",
+      "Una directiva para enlazar datos",
+      "Un método para crear componentes",
+      "Un servicio para manejar peticiones HTTP"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 11,
+    "question": "¿Cómo se utiliza un componente hijo en Vue.js?",
+    "code": "",
+    "answers": [
+      "Registrándolo en el objeto `components` del componente padre",
+      "Llamando a `Vue.use()`",
+      "Definiendo el componente en el archivo de rutas",
+      "Usando la directiva `v-child`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "¿Qué es el `v-for` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Una directiva para iterar sobre una lista",
+      "Un componente para manejar listas",
+      "Una función para crear datos dinámicos",
+      "Una directiva para aplicar estilos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "¿Cómo se accede a una propiedad de un componente padre desde un componente hijo?",
+    "code": "",
+    "answers": [
+      "Usando la directiva `props`",
+      "Llamando al método `$parent`",
+      "Accediendo directamente al objeto `data`",
+      "Usando la función `getParentProperty()`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "¿Qué es la función `created()` en un componente Vue.js?",
+    "code": "",
+    "answers": [
+      "Un hook del ciclo de vida que se llama después de que el componente ha sido instanciado",
+      "Un método para crear un nuevo componente",
+      "Una función para inicializar el estado",
+      "Un método para manejar eventos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 15,
+    "question": "¿Qué es `v-show` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Una directiva para mostrar u ocultar un elemento basado en una condición, pero siempre renderizado en el DOM",
+      "Una función para aplicar estilos condicionalmente",
+      "Una directiva para enlazar atributos",
+      "Un método para gestionar el estado del componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "¿Cómo se definen propiedades reactivas en Vue.js?",
+    "code": "",
+    "answers": [
+      "En el objeto `data` del componente",
+      "Directamente en el archivo de estilos",
+      "Usando el método `Vue.reactive()`",
+      "A través de la función `defineProperty()`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "¿Qué es un `watcher` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Una función que observa y reacciona a los cambios en una propiedad reactiva",
+      "Un método para modificar el DOM",
+      "Un componente para manejar eventos",
+      "Una directiva para aplicar estilos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "¿Qué es la directiva `v-bind:class`?",
+    "code": "",
+    "answers": [
+      "Una directiva para aplicar clases CSS dinámicamente a un elemento",
+      "Una directiva para enlazar datos en formularios",
+      "Una directiva para mostrar u ocultar elementos",
+      "Una función para gestionar el enrutamiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Cómo se define una ruta en Vue Router?",
+    "code": "",
+    "answers": [
+      "En el archivo de configuración de rutas, usando el objeto `routes`",
+      "Directamente en el componente",
+      "Usando la función `createRoute()`",
+      "A través del objeto `data` del componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "¿Qué es el `v-slot` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Una directiva para crear slots en componentes y pasar contenido a estos slots",
+      "Una directiva para mostrar u ocultar elementos",
+      "Una función para manejar eventos",
+      "Un componente para aplicar estilos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 21,
+    "question": "¿Qué es el `v-on` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Una directiva para escuchar y manejar eventos del DOM",
+      "Una directiva para enlazar atributos",
+      "Una función para modificar el estado del componente",
+      "Un componente para mostrar datos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 22,
+    "question": "¿Cómo se utiliza la función `computed` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Para definir propiedades computadas que dependen de otras propiedades reactivas",
+      "Para crear métodos del componente",
+      "Para definir datos iniciales",
+      "Para gestionar el enrutamiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 23,
+    "question": "¿Qué es la directiva `v-pre`?",
+    "code": "",
+    "answers": [
+      "Una directiva que omite la interpolación de un bloque de código y muestra el texto tal como está",
+      "Una directiva para aplicar estilos condicionalmente",
+      "Una directiva para manejar eventos",
+      "Una función para modificar el DOM"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Cómo se realiza la comunicación entre componentes hermanos en Vue.js?",
+    "code": "",
+    "answers": [
+      "Usando un componente padre común que pase datos y eventos",
+      "Directamente a través de props",
+      "Llamando a la función `$emit()`",
+      "Usando `Vuex` para el estado global"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Qué hace el hook `mounted()` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Se llama después de que el componente ha sido montado en el DOM",
+      "Se llama antes de que el componente sea destruido",
+      "Se llama durante la creación del componente",
+      "Se llama cuando el componente está en proceso de actualización"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 26,
+    "question": "¿Qué es el `mixins` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Una forma de reutilizar funcionalidades comunes entre varios componentes",
+      "Una directiva para aplicar estilos condicionales",
+      "Una función para manejar eventos",
+      "Un método para modificar el estado del componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 27,
+    "question": "¿Cómo se utiliza el `v-model` con un `select` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Enlazando el valor seleccionado del `select` a una propiedad reactiva",
+      "Usando el método `setValue()`",
+      "Aplicando una clase CSS",
+      "Definiendo un slot para opciones"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 28,
+    "question": "¿Qué hace la directiva `v-else`?",
+    "code": "",
+    "answers": [
+      "Se utiliza para mostrar un bloque de contenido alternativo si la condición de `v-if` es falsa",
+      "Se aplica un estilo condicional",
+      "Se enlazan datos en un formulario",
+      "Se gestiona el enrutamiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 29,
+    "question": "¿Cómo se define un componente global en Vue.js?",
+    "code": "",
+    "answers": [
+      "Usando `Vue.component()`",
+      "Declarando el componente en el archivo `main.js`",
+      "Utilizando el decorador `@Component`",
+      "A través del archivo de configuración de rutas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 30,
+    "question": "¿Qué es un `filter` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Una función para transformar datos en las vistas",
+      "Una directiva para mostrar u ocultar elementos",
+      "Un método para manejar eventos",
+      "Un componente para gestionar formularios"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 31,
+    "question": "¿Cómo se realiza el enrutamiento dinámico en Vue Router?",
+    "code": "",
+    "answers": [
+      "Definiendo rutas dinámicas en la configuración de rutas",
+      "Usando la función `createDynamicRoute()`",
+      "Declarando rutas en el componente",
+      "A través de la función `addRoute()`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Qué hace la directiva `v-once`?",
+    "code": "",
+    "answers": [
+      "Renderiza el contenido solo una vez y lo reutiliza en futuras actualizaciones",
+      "Muestra u oculta un elemento basado en una condición",
+      "Enlaza un atributo a una propiedad",
+      "Aplica estilos condicionales"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 33,
+    "question": "¿Qué es el `v-bind` con un objeto en Vue.js?",
+    "code": "",
+    "answers": [
+      "Una forma de enlazar múltiples atributos a partir de un objeto",
+      "Una directiva para aplicar clases CSS condicionales",
+      "Un método para manejar eventos",
+      "Una función para transformar datos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Cómo se definen propiedades computadas en un componente Vue.js?",
+    "code": "",
+    "answers": [
+      "En el objeto `computed` del componente",
+      "Directamente en el objeto `methods`",
+      "Usando la función `defineComputed()`",
+      "En el objeto `data` del componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 35,
+    "question": "¿Qué hace la función `beforeDestroy()`?",
+    "code": "",
+    "answers": [
+      "Se llama justo antes de que el componente sea destruido",
+      "Se llama después de que el componente ha sido montado",
+      "Se llama durante la creación del componente",
+      "Se llama cuando el componente está a punto de actualizarse"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 36,
+    "question": "¿Qué es el `v-bind:style`?",
+    "code": "",
+    "answers": [
+      "Una directiva para aplicar estilos en línea dinámicamente",
+      "Una directiva para mostrar u ocultar elementos",
+      "Una directiva para enlazar datos",
+      "Una función para modificar el estado del componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Qué hace el `v-slot:default`?",
+    "code": "",
+    "answers": [
+      "Define el contenido del slot por defecto en un componente",
+      "Muestra u oculta un elemento basado en una condición",
+      "Aplica una clase CSS condicionalmente",
+      "Gestiona el enrutamiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 38,
+    "question": "¿Cómo se gestionan los eventos de formularios en Vue.js?",
+    "code": "",
+    "answers": [
+      "Usando la directiva `v-on` para manejar eventos como `submit` o `input`",
+      "A través de la función `handleEvent()`",
+      "Directamente en el objeto `data`",
+      "Utilizando la función `addEventListener()`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 39,
+    "question": "¿Qué es el `Vue CLI`?",
+    "code": "",
+    "answers": [
+      "Una herramienta para crear y gestionar proyectos Vue.js",
+      "Una biblioteca para manejar el enrutamiento",
+      "Un método para definir componentes",
+      "Un sistema de gestión de dependencias"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 40,
+    "question": "¿Qué es el `v-if` con `v-else-if` y `v-else`?",
+    "code": "",
+    "answers": [
+      "Una estructura condicional para mostrar contenido basado en múltiples condiciones",
+      "Una directiva para aplicar estilos condicionales",
+      "Una directiva para manejar eventos",
+      "Una función para modificar el estado del componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 41,
+    "question": "¿Cómo se define un método en un componente Vue.js?",
+    "code": "",
+    "answers": [
+      "En el objeto `methods` del componente",
+      "Directamente en el objeto `data`",
+      "Usando el método `defineMethod()`",
+      "En el archivo de estilos CSS"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Qué es el `v-bind:href`?",
+    "code": "",
+    "answers": [
+      "Una directiva para enlazar dinámicamente el atributo `href` de un elemento `a`",
+      "Una directiva para aplicar estilos condicionales",
+      "Una función para manejar eventos",
+      "Una directiva para mostrar u ocultar elementos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 43,
+    "question": "¿Qué es la propiedad `props` en Vue.js?",
+    "code": "",
+    "answers": [
+      "Una forma de pasar datos de un componente padre a un componente hijo",
+      "Una directiva para aplicar estilos condicionales",
+      "Una función para manejar eventos",
+      "Un método para transformar datos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 44,
+    "question": "¿Qué es el `v-show`?",
+    "code": "",
+    "answers": [
+      "Una directiva para mostrar u ocultar un elemento basado en una condición sin eliminarlo del DOM",
+      "Una directiva para aplicar estilos condicionales",
+      "Una función para manejar eventos",
+      "Una directiva para enlazar datos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "¿Qué hace la propiedad `data` en un componente Vue.js?",
+    "code": "",
+    "answers": [
+      "Define el estado reactivo del componente",
+      "Define métodos del componente",
+      "Define el enrutamiento del componente",
+      "Define la estructura del DOM del componente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 46,
+    "question": "¿Cómo se usa `v-for` para iterar sobre una lista en Vue.js?",
+    "code": "",
+    "answers": [
+      "Usando `v-for` con una expresión de lista y un índice opcional",
+      "Usando un bucle `for` en el código JavaScript",
+      "Usando el método `map()`",
+      "Declarando un componente de lista"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 47,
+    "question": "¿Qué es `Vuex`?",
+    "code": "",
+    "answers": [
+      "Una biblioteca para gestionar el estado global de la aplicación",
+      "Una herramienta para manejar rutas",
+      "Un método para definir componentes",
+      "Un sistema de enrutamiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 48,
+    "question": "¿Cómo se accede a los datos de la tienda `Vuex` desde un componente?",
+    "code": "",
+    "answers": [
+      "Usando `mapState`, `mapGetters`, `mapActions` o `mapMutations`",
+      "Directamente desde el objeto `store`",
+      "Usando la función `getState()`",
+      "A través de la función `fetchData()`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 49,
+    "question": "¿Qué es el `Vue Router`?",
+    "code": "",
+    "answers": [
+      "Una biblioteca para gestionar el enrutamiento en aplicaciones Vue.js",
+      "Una herramienta para manejar el estado global",
+      "Una función para definir componentes",
+      "Un método para aplicar estilos condicionales"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 50,
+    "question": "¿Cómo se define una ruta en Vue Router?",
+    "code": "",
+    "answers": [
+      "Declarando un objeto de ruta con `path` y `component`",
+      "Usando la función `createRoute()`",
+      "Declarando un componente en el archivo de configuración",
+      "Usando el método `addRoute()`"
+    ],
+    "correctAnswerIndex": 0
+  }
+]

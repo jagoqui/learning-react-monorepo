@@ -1,0 +1,603 @@
+[
+    {
+      "id": 1,
+      "question": "¿Qué función se utiliza para crear un componente de clase en React?",
+      "code": "",
+      "answers": [
+        "React.Component",
+        "React.createClass",
+        "React.ComponentClass",
+        "React.createComponent"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "¿Cómo se define un componente funcional en React?",
+      "code": "",
+      "answers": [
+        "function MyComponent() {}",
+        "class MyComponent extends Component {}",
+        "const MyComponent = () => {}",
+        "const MyComponent = function() {}"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "¿Qué es JSX en React?",
+      "code": "",
+      "answers": [
+        "Una sintaxis para escribir elementos React",
+        "Un método para manejar el estado",
+        "Una librería para gestionar rutas",
+        "Una función para manipular el DOM"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "¿Cómo se actualiza el estado en un componente de clase?",
+      "code": "",
+      "answers": [
+        "this.setState()",
+        "this.updateState()",
+        "this.state = ",
+        "updateState()"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "¿Qué hook se utiliza para manejar el estado en un componente funcional?",
+      "code": "",
+      "answers": [
+        "useState",
+        "useEffect",
+        "useReducer",
+        "useContext"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "¿Cómo se accede a los props en un componente funcional?",
+      "code": "",
+      "answers": [
+        "A través del parámetro del componente",
+        "this.props",
+        "props.",
+        "useProps"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "¿Qué es un efecto secundario en React?",
+      "code": "",
+      "answers": [
+        "Cualquier operación que no esté relacionada con la renderización",
+        "Un cambio en el estado del componente",
+        "Un evento que ocurre en el DOM",
+        "Un método del ciclo de vida del componente"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "¿Cómo se aplica un efecto secundario en un componente funcional?",
+      "code": "",
+      "answers": [
+        "useEffect",
+        "useSideEffect",
+        "componentDidMount",
+        "componentWillUpdate"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "¿Qué es el Virtual DOM en React?",
+      "code": "",
+      "answers": [
+        "Una representación en memoria del DOM real",
+        "Una técnica para renderizar componentes en el servidor",
+        "Un tipo de base de datos en React",
+        "Una librería para manejar eventos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "¿Qué propiedad se utiliza para pasar datos a un componente hijo?",
+      "code": "",
+      "answers": [
+        "props",
+        "state",
+        "context",
+        "attributes"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "¿Cómo se maneja un evento en React?",
+      "code": "",
+      "answers": [
+        "Usando la propiedad on<Evento> en JSX",
+        "Usando document.addEventListener",
+        "Llamando a eventHandler() directamente",
+        "En el método render() del componente"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "¿Qué hook se utiliza para manejar el ciclo de vida en un componente funcional?",
+      "code": "",
+      "answers": [
+        "useEffect",
+        "useState",
+        "useContext",
+        "useReducer"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "¿Cómo se define una propiedad por defecto en un componente de clase?",
+      "code": "",
+      "answers": [
+        "static defaultProps",
+        "defaultProps",
+        "props.default",
+        "this.props.default"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "¿Qué método del ciclo de vida se llama después de que el componente se ha montado?",
+      "code": "",
+      "answers": [
+        "componentDidMount",
+        "componentWillMount",
+        "componentDidUpdate",
+        "componentWillUpdate"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "¿Cómo se realiza el renderizado condicional en React?",
+      "code": "",
+      "answers": [
+        "Usando operadores ternarios o expresiones condicionales en JSX",
+        "Usando if-else en el método render",
+        "Llamando a un método especial",
+        "Modificando el estado directamente"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 16,
+      "question": "¿Qué es un 'controlled component' en React?",
+      "code": "",
+      "answers": [
+        "Un componente cuyo valor está controlado por React state",
+        "Un componente que maneja su propio estado local",
+        "Un componente que usa props para su valor",
+        "Un componente que no puede actualizar su valor"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 17,
+      "question": "¿Cómo se pasa un método de un componente padre a un componente hijo?",
+      "code": "",
+      "answers": [
+        "A través de props",
+        "A través de context",
+        "A través de state",
+        "Llamando directamente al método"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "¿Cómo se maneja el estado en un componente funcional con múltiples valores?",
+      "code": "",
+      "answers": [
+        "Usando useState con un objeto",
+        "Usando useState por separado para cada valor",
+        "Usando useReducer",
+        "Usando context"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "¿Qué es React Context?",
+      "code": "",
+      "answers": [
+        "Una forma de pasar datos a través del árbol de componentes sin props",
+        "Un método para manejar eventos",
+        "Una función de ciclo de vida",
+        "Una técnica de renderizado condicional"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "¿Cómo se define un hook personalizado en React?",
+      "code": "",
+      "answers": [
+        "Definiendo una función que usa otros hooks",
+        "Usando el método useCustomHook",
+        "Definiendo una clase que extiende React.Component",
+        "Usando el método createHook"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "¿Qué hook se utiliza para gestionar el ciclo de vida en componentes funcionales?",
+      "code": "",
+      "answers": [
+        "useEffect",
+        "useState",
+        "useRef",
+        "useContext"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "¿Qué método se usa para prevenir el comportamiento predeterminado de un evento en React?",
+      "code": "",
+      "answers": [
+        "event.preventDefault()",
+        "event.stopPropagation()",
+        "event.cancel()",
+        "event.ignore()"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "¿Cómo se manejan los formularios en React?",
+      "code": "",
+      "answers": [
+        "Con 'controlled components' o 'uncontrolled components'",
+        "Usando el método submit() directamente",
+        "Con una librería externa como Formik",
+        "Modificando el DOM directamente"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "¿Cómo se definen las propiedades predeterminadas para un componente funcional?",
+      "code": "",
+      "answers": [
+        "No es posible; solo se puede hacer en componentes de clase",
+        "Definiendo un objeto de configuración dentro del componente",
+        "Usando defaultProps en el componente funcional",
+        "Definiendo las props en el archivo de configuración"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "¿Cómo se realiza el renderizado de listas en React?",
+      "code": "",
+      "answers": [
+        "Usando el método map() para iterar sobre un array",
+        "Usando el método forEach() dentro de render",
+        "Usando una etiqueta <List>",
+        "Renderizando cada elemento manualmente"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 26,
+      "question": "¿Qué atributo se usa para definir un elemento clave en una lista en React?",
+      "code": "",
+      "answers": [
+        "key",
+        "id",
+        "ref",
+        "class"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "¿Cómo se maneja el ciclo de vida en un componente de clase?",
+      "code": "",
+      "answers": [
+        "Usando métodos del ciclo de vida como componentDidMount",
+        "Usando useEffect",
+        "Usando hooks personalizados",
+        "Definiendo métodos en el constructor"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "¿Qué es React Router?",
+      "code": "",
+      "answers": [
+        "Una librería para manejar el enrutamiento en una aplicación React",
+        "Una herramienta para manejar el estado global",
+        "Una librería para gestionar efectos secundarios",
+        "Una función para crear componentes"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "¿Qué hook se utiliza para acceder al valor del contexto en un componente funcional?",
+      "code": "",
+      "answers": [
+        "useContext",
+        "useState",
+        "useReducer",
+        "useEffect"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "¿Cómo se accede al valor de un input en un formulario controlado?",
+      "code": "",
+      "answers": [
+        "A través del estado del componente",
+        "Directamente desde el DOM",
+        "Usando refs",
+        "A través de props"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "¿Qué es el `React.StrictMode`?",
+      "code": "",
+      "answers": [
+        "Un componente que ayuda a detectar problemas en la aplicación durante el desarrollo",
+        "Un método para optimizar el rendimiento",
+        "Una librería para manejar estados globales",
+        "Un hook para manejar efectos secundarios"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 32,
+      "question": "¿Cómo se define una referencia a un elemento DOM en un componente funcional?",
+      "code": "",
+      "answers": [
+        "Usando useRef",
+        "Usando document.getElementById",
+        "Usando createRef",
+        "Usando ref dentro de JSX"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 33,
+      "question": "¿Qué función se utiliza para manejar eventos de entrada en React?",
+      "code": "",
+      "answers": [
+        "handleChange",
+        "onInput",
+        "onChange",
+        "handleInput"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 34,
+      "question": "¿Cómo se define una animación en React?",
+      "code": "",
+      "answers": [
+        "Usando CSS o librerías de animación como React Spring",
+        "Usando el método setState",
+        "Directamente en el componente usando JavaScript",
+        "Con el hook useAnimation"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 35,
+      "question": "¿Qué es el `React.Fragment`?",
+      "code": "",
+      "answers": [
+        "Un contenedor que no añade nodos al DOM",
+        "Un método para manejar eventos",
+        "Un tipo de componente de clase",
+        "Una técnica para el manejo del estado"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 36,
+      "question": "¿Cómo se utiliza la propiedad `dangerouslySetInnerHTML` en React?",
+      "code": "",
+      "answers": [
+        "Para insertar HTML directamente en un componente",
+        "Para manipular el estado del componente",
+        "Para manejar eventos",
+        "Para definir estilos CSS"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "¿Qué es el `ReactDOM.render`?",
+      "code": "",
+      "answers": [
+        "Un método para renderizar un componente React en el DOM",
+        "Una función para crear componentes",
+        "Un hook para manejar el estado",
+        "Una librería para manejar rutas"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 38,
+      "question": "¿Qué es un componente de orden superior (HOC) en React?",
+      "code": "",
+      "answers": [
+        "Una función que toma un componente y retorna un nuevo componente",
+        "Un tipo especial de componente que extiende React.Component",
+        "Un método para manejar eventos",
+        "Una técnica para manejar el estado"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 39,
+      "question": "¿Qué es el `React.StrictMode`?",
+      "code": "",
+      "answers": [
+        "Un componente que ayuda a detectar problemas en la aplicación durante el desarrollo",
+        "Un método para optimizar el rendimiento",
+        "Una librería para manejar estados globales",
+        "Un hook para manejar efectos secundarios"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "¿Cómo se definen los `defaultProps` en un componente funcional?",
+      "code": "",
+      "answers": [
+        "No se puede; solo se puede en componentes de clase",
+        "Usando un objeto exportado desde el componente",
+        "Definiendo defaultProps directamente en el componente",
+        "Usando el método setDefaultProps"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 41,
+      "question": "¿Cómo se manejan los errores en un componente React?",
+      "code": "",
+      "answers": [
+        "Usando componentes de captura de errores como ErrorBoundary",
+        "Usando try-catch en el método render",
+        "Directamente en el método componentDidCatch",
+        "Usando el hook useError"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 42,
+      "question": "¿Qué es un render prop en React?",
+      "code": "",
+      "answers": [
+        "Una técnica para compartir código entre componentes usando una función como prop",
+        "Una propiedad que se usa para definir la clave de un elemento",
+        "Un método para manejar el estado del componente",
+        "Una función para actualizar el contexto"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 43,
+      "question": "¿Qué hook se utiliza para gestionar un estado complejo en un componente funcional?",
+      "code": "",
+      "answers": [
+        "useReducer",
+        "useState",
+        "useContext",
+        "useEffect"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 44,
+      "question": "¿Qué método se usa para forzar una actualización en un componente de clase?",
+      "code": "",
+      "answers": [
+        "this.forceUpdate()",
+        "this.update()",
+        "this.refresh()",
+        "this.setState()"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "¿Cómo se define una propiedad personalizada en un componente React?",
+      "code": "",
+      "answers": [
+        "Definiendo la propiedad en el objeto props del componente",
+        "Usando una clase CSS",
+        "Definiendo un atributo HTML",
+        "En el método componentDidMount"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 46,
+      "question": "¿Qué es un fragmento en React?",
+      "code": "",
+      "answers": [
+        "Un contenedor que no agrega nodos adicionales al DOM",
+        "Un componente de clase",
+        "Un tipo de estado",
+        "Una propiedad especial de React"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 47,
+      "question": "¿Cómo se manejan los efectos secundarios en un componente funcional?",
+      "code": "",
+      "answers": [
+        "Usando el hook useEffect",
+        "Usando el hook useState",
+        "En el método componentDidMount",
+        "En el método componentDidUpdate"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 48,
+      "question": "¿Cómo se definen los estilos en un componente React?",
+      "code": "",
+      "answers": [
+        "Usando una propiedad style con un objeto de estilos",
+        "Usando una clase CSS",
+        "Usando el método setStyle",
+        "Directamente en el archivo JS"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 49,
+      "question": "¿Cómo se usa el hook useMemo en React?",
+      "code": "",
+      "answers": [
+        "Para memorizar un valor calculado y evitar cálculos innecesarios en renderizados",
+        "Para manejar el estado del componente",
+        "Para acceder al contexto",
+        "Para manejar eventos"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 50,
+      "question": "¿Qué es el `ReactDOM.createRoot`?",
+      "code": "",
+      "answers": [
+        "Un método para renderizar una aplicación React en el DOM usando la API de Concurrent Mode",
+        "Un método para crear componentes de clase",
+        "Una función para gestionar el estado",
+        "Una técnica para manejar rutas"
+      ],
+      "correctAnswerIndex": 0
+    }
+]
+  

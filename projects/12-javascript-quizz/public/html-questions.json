@@ -1,0 +1,603 @@
+[
+    {
+      "id": 1,
+      "question": "¿Qué etiqueta HTML se utiliza para definir un encabezado de primer nivel?",
+      "code": "",
+      "answers": [
+        "<h1>",
+        "<header>",
+        "<title>",
+        "<head>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 2,
+      "question": "¿Qué atributo HTML se utiliza para abrir un enlace en una nueva pestaña?",
+      "code": "",
+      "answers": [
+        "href",
+        "target='_self'",
+        "target='_blank'",
+        "rel='noopener'"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál es la estructura básica de un documento HTML?",
+      "code": "",
+      "answers": [
+        "<html>, <body>, <footer>",
+        "<header>, <main>, <footer>",
+        "<html>, <head>, <body>",
+        "<meta>, <title>, <body>"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "¿Qué atributo HTML se utiliza para especificar una imagen de fondo en CSS?",
+      "code": "",
+      "answers": [
+        "src",
+        "background-image",
+        "background-color",
+        "img-src"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "¿Qué etiqueta HTML se utiliza para definir una lista no ordenada?",
+      "code": "",
+      "answers": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<list>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "¿Qué etiqueta HTML se utiliza para enlazar una hoja de estilo externa?",
+      "code": "",
+      "answers": [
+        "<style>",
+        "<link>",
+        "<script>",
+        "<meta>"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "¿Qué atributo HTML se utiliza para especificar un texto alternativo en una imagen?",
+      "code": "",
+      "answers": [
+        "alt",
+        "title",
+        "description",
+        "src"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "¿Cómo defines un botón de envío en un formulario?",
+      "code": "",
+      "answers": [
+        "<input type='submit'>",
+        "<button>",
+        "<submit>",
+        "<form action='submit'>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "¿Qué etiqueta HTML es utilizada para escribir comentarios?",
+      "code": "",
+      "answers": [
+        "<!-- comentario -->",
+        "<comment>",
+        "// comentario",
+        "<note>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "¿Cuál es la etiqueta para insertar una línea horizontal?",
+      "code": "",
+      "answers": [
+        "<hr>",
+        "<br>",
+        "<line>",
+        "<border>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "¿Qué atributo HTML establece un enlace para descargar un archivo?",
+      "code": "",
+      "answers": [
+        "download",
+        "href",
+        "src",
+        "target"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "¿Cuál es el propósito de la etiqueta <meta>?",
+      "code": "",
+      "answers": [
+        "Incluir metadatos en el documento",
+        "Definir enlaces externos",
+        "Añadir una imagen",
+        "Incluir hojas de estilo"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "¿Qué etiqueta HTML se utiliza para incluir un título en el navegador?",
+      "code": "",
+      "answers": [
+        "<title>",
+        "<header>",
+        "<h1>",
+        "<meta>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "¿Cómo defines un campo obligatorio en un formulario?",
+      "code": "",
+      "answers": [
+        "required",
+        "validate",
+        "mandatory",
+        "form-validate"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "¿Cuál es la salida de este código HTML?",
+      "code": "<input type='checkbox' checked>",
+      "answers": [
+        "Un botón de opción activado",
+        "Un cuadro de texto con valor predeterminado",
+        "Un cuadro de selección activado",
+        "Un botón activado"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 16,
+      "question": "¿Qué etiqueta HTML se utiliza para definir una imagen?",
+      "code": "",
+      "answers": [
+        "<image>",
+        "<img>",
+        "<picture>",
+        "<src>"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "¿Cuál es el propósito de la etiqueta <footer>?",
+      "code": "",
+      "answers": [
+        "Definir el pie de página del documento",
+        "Definir una sección de navegación",
+        "Definir un enlace",
+        "Definir el contenido principal"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "¿Qué etiqueta se utiliza para mostrar contenido preformateado?",
+      "code": "",
+      "answers": [
+        "<pre>",
+        "<code>",
+        "<formatted>",
+        "<p>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "¿Qué atributo HTML define el valor predeterminado de un campo de entrada?",
+      "code": "",
+      "answers": [
+        "default",
+        "value",
+        "placeholder",
+        "name"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 20,
+      "question": "¿Qué etiqueta HTML se utiliza para incrustar un video?",
+      "code": "",
+      "answers": [
+        "<movie>",
+        "<video>",
+        "<media>",
+        "<embed>"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 21,
+      "question": "¿Qué atributo HTML se utiliza para especificar el tamaño de una imagen?",
+      "code": "",
+      "answers": [
+        "size",
+        "dimensions",
+        "width y height",
+        "length"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 22,
+      "question": "¿Qué etiqueta HTML se utiliza para incrustar audio?",
+      "code": "",
+      "answers": [
+        "<audio>",
+        "<sound>",
+        "<mp3>",
+        "<media>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "¿Qué atributo HTML se utiliza para deshabilitar un botón?",
+      "code": "",
+      "answers": [
+        "readonly",
+        "disabled",
+        "inactive",
+        "hidden"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 24,
+      "question": "¿Qué atributo HTML se utiliza para especificar un texto de ayuda en un campo de entrada?",
+      "code": "",
+      "answers": [
+        "value",
+        "placeholder",
+        "title",
+        "help"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "¿Cuál es la etiqueta que define una lista ordenada?",
+      "code": "",
+      "answers": [
+        "<ul>",
+        "<li>",
+        "<ol>",
+        "<list>"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 26,
+      "question": "¿Cómo defines una lista desordenada en HTML?",
+      "code": "",
+      "answers": [
+        "<ul>",
+        "<ol>",
+        "<list>",
+        "<dl>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "¿Qué etiqueta HTML se utiliza para insertar un enlace?",
+      "code": "",
+      "answers": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<anchor>"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 28,
+      "question": "¿Qué atributo se utiliza para definir el destino de un enlace?",
+      "code": "",
+      "answers": [
+        "href",
+        "src",
+        "target",
+        "link"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "¿Qué etiqueta HTML se utiliza para definir una tabla?",
+      "code": "",
+      "answers": [
+        "<table>",
+        "<tab>",
+        "<div>",
+        "<td>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "¿Qué etiqueta HTML se utiliza para definir una fila en una tabla?",
+      "code": "",
+      "answers": [
+        "<tr>",
+        "<td>",
+        "<th>",
+        "<table>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 31,
+      "question": "¿Qué atributo se utiliza para fusionar columnas en una tabla?",
+      "code": "",
+      "answers": [
+        "rowspan",
+        "colspan",
+        "merge",
+        "colwidth"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 32,
+      "question": "¿Qué etiqueta HTML se utiliza para crear un formulario?",
+      "code": "",
+      "answers": [
+        "<input>",
+        "<form>",
+        "<textarea>",
+        "<button>"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 33,
+      "question": "¿Qué atributo HTML se utiliza para asociar un campo de formulario con una etiqueta?",
+      "code": "",
+      "answers": [
+        "id",
+        "for",
+        "name",
+        "label"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 34,
+      "question": "¿Qué atributo se utiliza para enviar datos de un formulario?",
+      "code": "",
+      "answers": [
+        "action",
+        "method",
+        "post",
+        "submit"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 35,
+      "question": "¿Qué etiqueta HTML define una celda en una tabla?",
+      "code": "",
+      "answers": [
+        "<td>",
+        "<tr>",
+        "<th>",
+        "<table>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 36,
+      "question": "¿Qué etiqueta HTML define un encabezado en una tabla?",
+      "code": "",
+      "answers": [
+        "<th>",
+        "<td>",
+        "<tr>",
+        "<header>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 37,
+      "question": "¿Qué etiqueta HTML se utiliza para un enlace a correo electrónico?",
+      "code": "",
+      "answers": [
+        "<mailto>",
+        "<a href='mailto:'>",
+        "<link>",
+        "<email>"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 38,
+      "question": "¿Qué etiqueta HTML define un párrafo?",
+      "code": "",
+      "answers": [
+        "<p>",
+        "<br>",
+        "<div>",
+        "<paragraph>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 39,
+      "question": "¿Qué etiqueta HTML se utiliza para definir una sección de navegación?",
+      "code": "",
+      "answers": [
+        "<nav>",
+        "<header>",
+        "<footer>",
+        "<aside>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 40,
+      "question": "¿Qué etiqueta se utiliza para definir el contenido principal del documento?",
+      "code": "",
+      "answers": [
+        "<section>",
+        "<main>",
+        "<article>",
+        "<header>"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 41,
+      "question": "¿Qué etiqueta HTML se utiliza para definir una imagen como fondo de página?",
+      "code": "",
+      "answers": [
+        "<img>",
+        "<background>",
+        "<div style='background-image'>",
+        "<body style='background-image'>"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 42,
+      "question": "¿Qué etiqueta HTML define una lista de definiciones?",
+      "code": "",
+      "answers": [
+        "<dl>",
+        "<dd>",
+        "<dt>",
+        "<li>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 43,
+      "question": "¿Cómo defines una celda de encabezado en una tabla?",
+      "code": "",
+      "answers": [
+        "<th>",
+        "<tr>",
+        "<td>",
+        "<thead>"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 44,
+      "question": "¿Qué atributo se utiliza para definir un texto emergente al pasar el mouse sobre un elemento?",
+      "code": "",
+      "answers": [
+        "title",
+        "alt",
+        "hover",
+        "tooltip"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 45,
+      "question": "¿Qué etiqueta se utiliza para resaltar texto en HTML?",
+      "code": "",
+      "answers": [
+        "<b>",
+        "<strong>",
+        "<mark>",
+        "<em>"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 46,
+      "question": "¿Qué etiqueta se utiliza para definir un enlace de anclaje?",
+      "code": "",
+      "answers": [
+        "<link>",
+        "<a>",
+        "<anchor>",
+        "<nav>"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 47,
+      "question": "¿Qué atributo HTML define el nombre de un campo de formulario?",
+      "code": "",
+      "answers": [
+        "name",
+        "id",
+        "for",
+        "value"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 48,
+      "question": "¿Qué atributo HTML define la longitud máxima permitida para un campo de texto?",
+      "code": "",
+      "answers": [
+        "max",
+        "maxlength",
+        "size",
+        "limit"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 49,
+      "question": "¿Qué atributo HTML se utiliza para establecer la URL de un recurso externo?",
+      "code": "",
+      "answers": [
+        "href",
+        "src",
+        "link",
+        "url"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 50,
+      "question": "¿Qué atributo HTML define el texto alternativo en una imagen?",
+      "code": "",
+      "answers": [
+        "alt",
+        "title",
+        "src",
+        "description"
+      ],
+      "correctAnswerIndex": 0
+    }
+]
+  

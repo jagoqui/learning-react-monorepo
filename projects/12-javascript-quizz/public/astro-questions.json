@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué es Astro?",
+    "code": "",
+    "answers": [
+      "Un generador de sitios estáticos",
+      "Un framework de JavaScript",
+      "Una biblioteca para manejar estado en React",
+      "Un preprocesador de CSS"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Cómo se crea un nuevo proyecto en Astro?",
+    "code": "",
+    "answers": [
+      "Usando `npm create astro@latest`",
+      "Usando `astro new`",
+      "Usando `npx create-astro`",
+      "Usando `npm init astro`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Qué archivo se utiliza para definir la configuración de un proyecto Astro?",
+    "code": "",
+    "answers": [
+      "`astro.config.mjs`",
+      "`config.json`",
+      "`settings.js`",
+      "`astro.config.js`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Cómo se agrega un componente de React en un proyecto Astro?",
+    "code": "",
+    "answers": [
+      "Importando el componente y usándolo directamente en un archivo `.astro`",
+      "Usando un archivo `.jsx`",
+      "Definiendo el componente en el archivo `index.astro`",
+      "Astro no soporta componentes de React"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Cuál es el propósito del archivo `src/pages/index.astro` en un proyecto Astro?",
+    "code": "",
+    "answers": [
+      "Es la página de inicio del sitio web",
+      "Define la configuración del proyecto",
+      "Contiene el archivo principal de estilos",
+      "Es un componente de la página principal"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Cómo se define una ruta dinámica en Astro?",
+    "code": "",
+    "answers": [
+      "Usando corchetes en el nombre del archivo, por ejemplo `[slug].astro`",
+      "Definiendo una variable en `astro.config.mjs`",
+      "Creando un archivo `routes.js`",
+      "Astro no soporta rutas dinámicas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Qué es un componente `Astro`?",
+    "code": "",
+    "answers": [
+      "Un componente que se compila a HTML estático",
+      "Un componente de React",
+      "Un componente de Vue",
+      "Un componente de estado global"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Cómo se importan estilos en un archivo `.astro`?",
+    "code": "",
+    "answers": [
+      "Usando la etiqueta `<style>` dentro del archivo `.astro`",
+      "Importando un archivo CSS en la cabecera del archivo `.astro`",
+      "Definiendo un archivo de estilos global en `astro.config.mjs`",
+      "Astro no soporta la importación de estilos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cuál es el rol de `Astro.fetchContent()`?",
+    "code": "",
+    "answers": [
+      "Permite cargar y procesar contenido desde archivos y directorios",
+      "Maneja las peticiones HTTP a APIs externas",
+      "Realiza tareas de renderizado en el servidor",
+      "Crea contenido dinámico en tiempo real"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "¿Cómo se configura un plugin en Astro?",
+    "code": "",
+    "answers": [
+      "Agregando el plugin a la sección `integrations` en `astro.config.mjs`",
+      "Instalando el plugin en el archivo `package.json`",
+      "Definiendo el plugin en un archivo separado",
+      "Astro no soporta plugins"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 11,
+    "question": "¿Qué tipo de archivos puede procesar Astro?",
+    "code": "",
+    "answers": [
+      "Archivos `.astro`, `.md`, `.html`, `.js`, `.ts`, `.jsx`, `.tsx`, `.css`, `.scss`, etc.",
+      "Solo archivos `.html` y `.css`",
+      "Solo archivos `.astro` y `.md`",
+      "Archivos `.js` y `.ts` solamente"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "¿Cómo se definen variables de entorno en un proyecto Astro?",
+    "code": "",
+    "answers": [
+      "Usando un archivo `.env` en la raíz del proyecto",
+      "Definiendo variables en `astro.config.mjs`",
+      "Usando el archivo `config.json`",
+      "Astro no soporta variables de entorno"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "¿Qué es un `Astro` component?",
+    "code": "",
+    "answers": [
+      "Un componente que se convierte en HTML estático durante el build",
+      "Un componente de estado en React",
+      "Un componente de Vue.js",
+      "Un archivo de configuración"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "¿Cómo se define una página en Astro?",
+    "code": "",
+    "answers": [
+      "Creando un archivo `.astro` en el directorio `src/pages`",
+      "Definiendo una ruta en `astro.config.mjs`",
+      "Usando un componente específico de página",
+      "Astro no tiene soporte para páginas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 15,
+    "question": "¿Cómo se agregan scripts a una página en Astro?",
+    "code": "",
+    "answers": [
+      "Usando la etiqueta `<script>` dentro del archivo `.astro`",
+      "Incluyendo scripts en `astro.config.mjs`",
+      "Usando una etiqueta `<script>` en un componente de React",
+      "Astro no soporta la inclusión de scripts"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "¿Qué es el `Astro Islands Architecture`?",
+    "code": "",
+    "answers": [
+      "Un enfoque para construir interfaces rápidas y eficientes, combinando HTML estático con componentes interactivos",
+      "Un patrón para manejar el estado global",
+      "Un sistema de enrutamiento para aplicaciones web",
+      "Una metodología para manejar datos en tiempo real"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "¿Cómo se integran componentes de Vue.js en un proyecto Astro?",
+    "code": "",
+    "answers": [
+      "Importando el componente Vue y usándolo en un archivo `.astro`",
+      "Usando un archivo `.vue` en el directorio `src/components`",
+      "Definiendo el componente en el archivo `index.astro`",
+      "Astro no soporta componentes de Vue.js"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "¿Qué es el archivo `src/layouts/BaseLayout.astro` en Astro?",
+    "code": "",
+    "answers": [
+      "Un archivo de diseño base para envolver y estructurar páginas",
+      "Un componente específico para estilos",
+      "Un archivo de configuración del proyecto",
+      "Un archivo de datos para páginas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Cómo se maneja el enrutamiento en un proyecto Astro?",
+    "code": "",
+    "answers": [
+      "Creando archivos `.astro` en el directorio `src/pages` que corresponden a rutas",
+      "Definiendo rutas en `astro.config.mjs`",
+      "Usando un archivo de configuración de rutas",
+      "Astro no maneja enrutamiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "¿Cómo se realiza el despliegue de un proyecto Astro?",
+    "code": "",
+    "answers": [
+      "Generando los archivos estáticos y subiéndolos a un servicio de hosting estático",
+      "Usando un servidor específico de Astro",
+      "Configurando un archivo `.deploy`",
+      "Astro no soporta despliegue"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 21,
+    "question": "¿Cómo se importan y utilizan componentes de Svelte en Astro?",
+    "code": "",
+    "answers": [
+      "Importando el componente Svelte y usándolo en un archivo `.astro`",
+      "Usando un archivo `.svelte` directamente",
+      "Definiendo el componente en el archivo `index.astro`",
+      "Astro no soporta componentes de Svelte"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 22,
+    "question": "¿Qué hace el método `Astro.resolve()`?",
+    "code": "",
+    "answers": [
+      "Permite resolver rutas y archivos durante el build",
+      "Maneja el enrutamiento de peticiones HTTP",
+      "Resuelve conflictos de dependencias",
+      "Define las variables de entorno"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 23,
+    "question": "¿Cómo se realiza el manejo de datos en un proyecto Astro?",
+    "code": "",
+    "answers": [
+      "Usando `Astro.fetchContent()` para cargar datos desde archivos o APIs",
+      "Definiendo datos en `astro.config.mjs`",
+      "Usando una base de datos integrada",
+      "Astro no maneja datos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Cómo se añaden metaetiquetas en un archivo `.astro`?",
+    "code": "",
+    "answers": [
+      "Incluyendo etiquetas `<meta>` dentro del bloque `<head>` en el archivo `.astro`",
+      "Definiendo metaetiquetas en `astro.config.mjs`",
+      "Usando un componente específico para metaetiquetas",
+      "Astro no soporta metaetiquetas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Qué archivo contiene el código del servidor en un proyecto Astro?",
+    "code": "",
+    "answers": [
+      "Astro no tiene un archivo de código del servidor; todo se compila a HTML estático",
+      "`src/server.js`",
+      "`src/api.js`",
+      "`server.config.mjs`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 26,
+    "question": "¿Cómo se maneja el estado en un componente Astro?",
+    "code": "",
+    "answers": [
+      "Usando el enfoque de JavaScript estándar en el componente `.astro`",
+      "Definiendo un store global",
+      "Usando una librería de gestión de estado",
+      "Astro no soporta gestión de estado"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 27,
+    "question": "¿Cómo se crean y utilizan datos dinámicos en un proyecto Astro?",
+    "code": "",
+    "answers": [
+      "Usando `Astro.fetchContent()` para obtener datos desde archivos o APIs",
+      "Definiendo datos en `astro.config.mjs`",
+      "Utilizando componentes de estado en React",
+      "Astro no soporta datos dinámicos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 28,
+    "question": "¿Qué método se usa para importar datos en un archivo `.astro`?",
+    "code": "",
+    "answers": [
+      "Usando `import` estándar de JavaScript",
+      "Usando `Astro.import()`",
+      "Definiendo datos en `astro.config.mjs`",
+      "Astro no soporta importación de datos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 29,
+    "question": "¿Qué es una integración en Astro?",
+    "code": "",
+    "answers": [
+      "Un plugin o paquete adicional que extiende la funcionalidad de Astro",
+      "Un componente específico para datos",
+      "Una función de ciclo de vida del componente",
+      "Un archivo de configuración"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 30,
+    "question": "¿Cómo se define un componente en Astro?",
+    "code": "",
+    "answers": [
+      "Creando un archivo `.astro` en el directorio `src/components`",
+      "Usando un archivo `.js`",
+      "Definiendo el componente en el archivo `index.astro`",
+      "Astro no soporta componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 31,
+    "question": "¿Cómo se especifica el layout para una página en Astro?",
+    "code": "",
+    "answers": [
+      "Usando la propiedad `layout` en el archivo `.astro`",
+      "Definiendo un layout en `astro.config.mjs`",
+      "Usando un componente `Layout`",
+      "Astro no soporta layouts"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Qué es el `Astro.build()`?",
+    "code": "",
+    "answers": [
+      "Un comando para construir el proyecto y generar los archivos estáticos",
+      "Una función para manejar rutas",
+      "Un método para gestionar el estado",
+      "Un comando para iniciar el servidor de desarrollo"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 33,
+    "question": "¿Cómo se pueden manejar las rutas de un API en Astro?",
+    "code": "",
+    "answers": [
+      "Creando archivos en `src/pages/api` para manejar rutas de API",
+      "Definiendo rutas en `astro.config.mjs`",
+      "Usando un archivo `api.js`",
+      "Astro no soporta rutas de API"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Cómo se agregan dependencias a un proyecto Astro?",
+    "code": "",
+    "answers": [
+      "Instalando paquetes a través de `npm` o `yarn`",
+      "Definiendo dependencias en `astro.config.mjs`",
+      "Agregando dependencias en un archivo `package.json`",
+      "Astro no soporta dependencias"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 35,
+    "question": "¿Qué hace `Astro.render()`?",
+    "code": "",
+    "answers": [
+      "Renderiza los archivos `.astro` a HTML estático durante el build",
+      "Maneja el enrutamiento de componentes",
+      "Ejecuta scripts de lado del cliente",
+      "Gestiona el estado de la aplicación"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 36,
+    "question": "¿Cómo se definen rutas estáticas en Astro?",
+    "code": "",
+    "answers": [
+      "Creando archivos `.astro` en el directorio `src/pages`",
+      "Definiendo rutas en un archivo `routes.js`",
+      "Usando un archivo `staticRoutes.js`",
+      "Astro no soporta rutas estáticas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Qué es el sistema de `Astro Partials`?",
+    "code": "",
+    "answers": [
+      "Una manera de dividir una página en partes reutilizables",
+      "Un componente específico para manejar el estado",
+      "Un archivo de configuración para rutas",
+      "Astro no soporta partials"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 38,
+    "question": "¿Cómo se manejan las imágenes en Astro?",
+    "code": "",
+    "answers": [
+      "Usando la etiqueta `<img>` o importando imágenes en archivos `.astro`",
+      "Definiendo imágenes en `astro.config.mjs`",
+      "Usando un componente específico para imágenes",
+      "Astro no soporta manejo de imágenes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 39,
+    "question": "¿Cómo se utiliza el pre-renderizado en Astro?",
+    "code": "",
+    "answers": [
+      "El contenido se pre-renderiza a HTML estático durante el build",
+      "Definiendo una opción en `astro.config.mjs`",
+      "Usando un archivo de configuración específico",
+      "Astro no soporta pre-renderizado"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 40,
+    "question": "¿Qué es el `Astro SSR`?",
+    "code": "",
+    "answers": [
+      "Renderizado en el servidor de componentes que generan HTML dinámico",
+      "Un comando para generar archivos estáticos",
+      "Un método para manejar rutas de cliente",
+      "Astro no soporta SSR"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 41,
+    "question": "¿Cómo se puede incluir un archivo JavaScript en un proyecto Astro?",
+    "code": "",
+    "answers": [
+      "Importando el archivo en el componente `.astro` o usando la etiqueta `<script>`",
+      "Definiendo el script en `astro.config.mjs`",
+      "Usando un componente específico para scripts",
+      "Astro no soporta JavaScript"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Qué es una `Astro Component Library`?",
+    "code": "",
+    "answers": [
+      "Una colección de componentes reutilizables para proyectos Astro",
+      "Una librería específica para gestionar datos",
+      "Un sistema de enrutamiento",
+      "Astro no soporta librerías de componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 43,
+    "question": "¿Cómo se configura un plugin en Astro?",
+    "code": "",
+    "answers": [
+      "Agregando la configuración del plugin en `astro.config.mjs`",
+      "Instalando el plugin en `package.json`",
+      "Definiendo el plugin en un archivo `plugins.js`",
+      "Astro no soporta plugins"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 44,
+    "question": "¿Cómo se ejecuta el servidor de desarrollo en Astro?",
+    "code": "",
+    "answers": [
+      "Usando el comando `npm start` o `yarn start`",
+      "Ejecutando `astro build`",
+      "Usando el comando `astro server`",
+      "Astro no soporta un servidor de desarrollo"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "¿Qué es `Astro Island Architecture`?",
+    "code": "",
+    "answers": [
+      "Una arquitectura que permite la integración de componentes interactivos en un HTML estático",
+      "Un sistema de enrutamiento",
+      "Una librería de gestión de estado",
+      "Astro no soporta arquitectura de islas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 46,
+    "question": "¿Cómo se define una variable de entorno en Astro?",
+    "code": "",
+    "answers": [
+      "Creando un archivo `.env` en la raíz del proyecto",
+      "Definiendo variables en `astro.config.mjs`",
+      "Usando un archivo `config.js`",
+      "Astro no soporta variables de entorno"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 47,
+    "question": "¿Cómo se maneja la carga de contenido estático en Astro?",
+    "code": "",
+    "answers": [
+      "Colocando archivos estáticos en el directorio `public`",
+      "Definiendo contenido en `astro.config.mjs`",
+      "Usando un componente específico para contenido estático",
+      "Astro no soporta contenido estático"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 48,
+    "question": "¿Qué hace el comando `astro dev`?",
+    "code": "",
+    "answers": [
+      "Inicia el servidor de desarrollo para ver los cambios en tiempo real",
+      "Construye el proyecto para producción",
+      "Genera un archivo de configuración",
+      "Inicia el servidor de API"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 49,
+    "question": "¿Cómo se gestionan las peticiones HTTP en Astro?",
+    "code": "",
+    "answers": [
+      "Usando `fetch` estándar en archivos `.astro`",
+      "Definiendo peticiones en `astro.config.mjs`",
+      "Usando una librería específica para peticiones",
+      "Astro no soporta peticiones HTTP"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 50,
+    "question": "¿Cómo se añaden estilos globales en Astro?",
+    "code": "",
+    "answers": [
+      "Importando archivos de CSS en `src/styles/global.css`",
+      "Definiendo estilos en `astro.config.mjs`",
+      "Usando un componente específico para estilos globales",
+      "Astro no soporta estilos globales"
+    ],
+    "correctAnswerIndex": 0
+  }
+]

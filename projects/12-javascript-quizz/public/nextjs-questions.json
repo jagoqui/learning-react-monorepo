@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cómo se configura el enrutamiento en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando el sistema de archivos y la carpeta `pages`",
+      "Con un archivo `routes.js`",
+      "Mediante un componente de enrutamiento",
+      "Next.js no soporta enrutamiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Qué es `getStaticProps` en Next.js?",
+    "code": "",
+    "answers": [
+      "Una función para generar páginas estáticas en el momento de la construcción",
+      "Una función para obtener datos en el cliente",
+      "Un hook para manejar el estado",
+      "Next.js no soporta generación de páginas estáticas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Cómo se realiza el manejo de rutas dinámicas en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando corchetes en el nombre del archivo dentro de la carpeta `pages`",
+      "Con un archivo de configuración de rutas",
+      "Mediante un componente especial",
+      "Next.js no soporta rutas dinámicas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Qué es `getServerSideProps` en Next.js?",
+    "code": "",
+    "answers": [
+      "Una función para obtener datos en el servidor en cada solicitud",
+      "Una función para obtener datos en el cliente",
+      "Un hook para manejar el estado",
+      "Next.js no soporta obtención de datos en el servidor"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Cómo se implementa el soporte para estilos en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando módulos CSS o librerías de estilos como styled-components",
+      "Con un archivo de configuración de estilos",
+      "Mediante una clase de estilo global",
+      "Next.js no soporta estilos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Cómo se maneja el estado global en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando Context API o librerías de manejo de estado como Redux",
+      "Con un hook especial",
+      "Definiendo estado en el archivo de configuración",
+      "Next.js no soporta manejo de estado global"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Cómo se realiza la optimización de imágenes en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando el componente `Image` de Next.js para optimización automática",
+      "Con una librería de optimización de imágenes",
+      "Definiendo optimización en el archivo de configuración",
+      "Next.js no soporta optimización de imágenes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Cómo se realiza la carga diferida (lazy loading) en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando `dynamic()` para importar componentes de manera dinámica",
+      "Con un archivo de configuración de carga diferida",
+      "Mediante un componente de carga diferida",
+      "Next.js no soporta carga diferida"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cómo se implementa la internacionalización en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando una librería de internacionalización como `next-i18next`",
+      "Definiendo traducciones en el archivo de configuración",
+      "Con un servicio de internacionalización",
+      "Next.js no soporta internacionalización"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "¿Cómo se maneja el despliegue de una aplicación Next.js?",
+    "code": "",
+    "answers": [
+      "Construyendo la aplicación y desplegando en un servidor o plataforma de despliegue compatible",
+      "Mediante un comando de despliegue integrado",
+      "Con una plataforma específica de despliegue como Vercel",
+      "Next.js no soporta despliegue"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 11,
+    "question": "¿Qué es `getStaticPaths` en Next.js?",
+    "code": "",
+    "answers": [
+      "Una función para especificar qué rutas dinámicas deben ser pre-renderizadas en el momento de la construcción",
+      "Una función para obtener rutas dinámicas en el cliente",
+      "Un hook para manejar el estado de rutas",
+      "Next.js no soporta rutas dinámicas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 12,
+    "question": "¿Cómo se implementa el manejo de errores en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando el componente de error `ErrorBoundary` o una página de error personalizada",
+      "Con un archivo de configuración de errores",
+      "Mediante un servicio de manejo de errores",
+      "Next.js no soporta manejo de errores"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "¿Cómo se realizan las actualizaciones de datos en un componente en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando `useState` o `useEffect` para manejar datos y efectos",
+      "Con un hook especial para actualizaciones",
+      "Definiendo datos en el archivo de configuración",
+      "Next.js no soporta actualizaciones de datos en componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "¿Cómo se define un componente en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando la sintaxis de componentes funcionales o de clase de React",
+      "Con una función especial `createComponent()`",
+      "Mediante un archivo de configuración de componentes",
+      "Next.js no soporta definición de componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 15,
+    "question": "¿Cómo se maneja la autenticación en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando librerías de autenticación o middleware personalizado",
+      "Con un archivo de configuración de autenticación",
+      "Mediante un componente especial de autenticación",
+      "Next.js no soporta autenticación"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "¿Cómo se configuran las variables de entorno en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando un archivo `.env.local`",
+      "Con un archivo de configuración específico",
+      "Mediante el archivo `next.config.js`",
+      "Next.js no soporta variables de entorno"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "¿Cómo se usa el hook `useRouter` en Next.js?",
+    "code": "",
+    "answers": [
+      "Para acceder al enrutador y manipular la navegación",
+      "Para obtener datos del servidor",
+      "Para manejar el estado del componente",
+      "Next.js no soporta el hook `useRouter`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "¿Qué es la función `getInitialProps` en Next.js?",
+    "code": "",
+    "answers": [
+      "Una función que permite obtener datos al renderizar una página tanto en el servidor como en el cliente",
+      "Una función para obtener datos únicamente en el servidor",
+      "Un hook para manejar el estado del componente",
+      "Next.js no soporta `getInitialProps`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Cómo se realizan los prefetching de datos en Next.js?",
+    "code": "",
+    "answers": [
+      "Mediante la función `getStaticProps` o `getServerSideProps`",
+      "Con un hook especial",
+      "Mediante un archivo de configuración",
+      "Next.js no soporta prefetching de datos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "¿Qué es el archivo `next.config.js`?",
+    "code": "",
+    "answers": [
+      "Un archivo para configurar opciones de Next.js como redirecciones y variables de entorno",
+      "Un archivo para definir rutas",
+      "Un archivo para manejar estados globales",
+      "Next.js no usa el archivo `next.config.js`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 21,
+    "question": "¿Cómo se realiza la generación de rutas estáticas en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando la función `getStaticPaths`",
+      "Con el archivo `next.config.js`",
+      "Mediante un componente de enrutamiento",
+      "Next.js no soporta rutas estáticas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 22,
+    "question": "¿Cómo se puede utilizar Next.js con TypeScript?",
+    "code": "",
+    "answers": [
+      "Instalando los paquetes necesarios y configurando `tsconfig.json`",
+      "Con un archivo de configuración especial",
+      "Mediante un hook específico",
+      "Next.js no soporta TypeScript"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 23,
+    "question": "¿Qué hace el componente `Link` de Next.js?",
+    "code": "",
+    "answers": [
+      "Permite la navegación entre páginas de la aplicación",
+      "Proporciona un enlace externo",
+      "Muestra un modal",
+      "Next.js no tiene un componente `Link`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Cómo se maneja la carga de componentes en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando `dynamic()` para carga diferida",
+      "Con un archivo de configuración especial",
+      "Mediante el uso de `useState`",
+      "Next.js no soporta carga de componentes"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Cómo se utilizan los estilos globales en Next.js?",
+    "code": "",
+    "answers": [
+      "Importando archivos CSS en `_app.js`",
+      "Con un archivo de configuración especial",
+      "Definiendo estilos en cada componente",
+      "Next.js no soporta estilos globales"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 26,
+    "question": "¿Qué es el archivo `_app.js` en Next.js?",
+    "code": "",
+    "answers": [
+      "Un archivo que envuelve todos los componentes de la aplicación y permite la configuración global",
+      "Un archivo para definir rutas",
+      "Un archivo para manejar el estado global",
+      "Next.js no usa `_app.js`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 27,
+    "question": "¿Cómo se manejan las solicitudes API en Next.js?",
+    "code": "",
+    "answers": [
+      "Creando archivos dentro de la carpeta `pages/api`",
+      "Con un archivo de configuración especial",
+      "Mediante un componente de API",
+      "Next.js no soporta solicitudes API"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 28,
+    "question": "¿Qué es `next/image` y para qué se usa?",
+    "code": "",
+    "answers": [
+      "Un componente para optimizar la carga y el manejo de imágenes",
+      "Un componente para manejar el estado de las imágenes",
+      "Un hook para obtener imágenes",
+      "Next.js no tiene `next/image`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 29,
+    "question": "¿Cómo se puede utilizar el SSR (Server-Side Rendering) en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando `getServerSideProps`",
+      "Con un archivo de configuración especial",
+      "Mediante el hook `useSSR`",
+      "Next.js no soporta SSR"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 30,
+    "question": "¿Qué es el middleware en Next.js?",
+    "code": "",
+    "answers": [
+      "Una función que permite ejecutar código antes de que una solicitud llegue a la página",
+      "Un archivo de configuración",
+      "Un componente para manejar el estado",
+      "Next.js no soporta middleware"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 31,
+    "question": "¿Cómo se configura el soporte para CSS-in-JS en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando librerías como styled-components o @emotion",
+      "Con un archivo de configuración especial",
+      "Mediante un componente de estilos",
+      "Next.js no soporta CSS-in-JS"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Cómo se define una página en Next.js?",
+    "code": "",
+    "answers": [
+      "Creando un archivo JavaScript o TypeScript en la carpeta `pages`",
+      "Con un archivo de configuración de páginas",
+      "Mediante un componente especial",
+      "Next.js no soporta definición de páginas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 33,
+    "question": "¿Qué hace la función `revalidate` en Next.js?",
+    "code": "",
+    "answers": [
+      "Permite configurar la frecuencia con la que se debe revalidar la página estática",
+      "Define el tiempo de vida de las imágenes",
+      "Maneja el estado del componente",
+      "Next.js no tiene la función `revalidate`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Cómo se maneja el estado en una aplicación Next.js?",
+    "code": "",
+    "answers": [
+      "Usando hooks de React como `useState` o `useReducer`",
+      "Con un archivo de configuración especial",
+      "Mediante un servicio global",
+      "Next.js no soporta manejo de estado"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 35,
+    "question": "¿Cómo se pueden definir rutas privadas en Next.js?",
+    "code": "",
+    "answers": [
+      "Implementando autenticación en un componente de orden superior o middleware",
+      "Con un archivo de configuración de rutas privadas",
+      "Mediante un hook especial",
+      "Next.js no soporta rutas privadas"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 36,
+    "question": "¿Qué es la función `getStaticProps` y cuándo se utiliza?",
+    "code": "",
+    "answers": [
+      "Una función para obtener datos en el momento de la construcción de la página, usada para la generación de páginas estáticas",
+      "Una función para obtener datos en el cliente",
+      "Un hook para manejar el estado del componente",
+      "Next.js no soporta `getStaticProps`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Cómo se puede realizar la navegación programática en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando el hook `useRouter`",
+      "Con un archivo de configuración de navegación",
+      "Mediante un componente de navegación",
+      "Next.js no soporta navegación programática"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 38,
+    "question": "¿Cómo se configura un proxy en Next.js?",
+    "code": "",
+    "answers": [
+      "Utilizando un archivo `next.config.js` para configurar redirecciones y rewrites",
+      "Con un archivo de configuración de proxy",
+      "Mediante un componente de proxy",
+      "Next.js no soporta configuración de proxy"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 39,
+    "question": "¿Qué es la función `unstable_revalidate` en Next.js?",
+    "code": "",
+    "answers": [
+      "Una función para revalidar una página en el servidor después de que ha sido generada",
+      "Un hook para manejar el estado",
+      "Una función para manejar rutas dinámicas",
+      "Next.js no tiene la función `unstable_revalidate`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 40,
+    "question": "¿Cómo se realiza la integración de Next.js con un CMS (Sistema de Gestión de Contenidos)?",
+    "code": "",
+    "answers": [
+      "Usando APIs para obtener datos del CMS y pasando esos datos a los componentes",
+      "Con un archivo de configuración del CMS",
+      "Mediante un componente de integración",
+      "Next.js no soporta integración con CMS"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 41,
+    "question": "¿Cómo se manejan los estilos de módulos en Next.js?",
+    "code": "",
+    "answers": [
+      "Importando archivos CSS módulos en los componentes",
+      "Con un archivo de configuración especial",
+      "Mediante un componente de módulos",
+      "Next.js no soporta estilos de módulos"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Qué es el archivo `_document.js` en Next.js?",
+    "code": "",
+    "answers": [
+      "Un archivo que permite personalizar el HTML global y el documento de la página",
+      "Un archivo para definir rutas",
+      "Un archivo para manejar el estado global",
+      "Next.js no usa `_document.js`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 43,
+    "question": "¿Cómo se manejan los errores en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando el componente `Error` para personalizar la página de error",
+      "Con un archivo de configuración de errores",
+      "Mediante un hook especial",
+      "Next.js no soporta manejo de errores"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 44,
+    "question": "¿Cómo se realiza el enrutamiento dinámico en Next.js?",
+    "code": "",
+    "answers": [
+      "Creando archivos con corchetes en la carpeta `pages` para definir rutas dinámicas",
+      "Con un archivo de configuración especial",
+      "Mediante un hook de enrutamiento",
+      "Next.js no soporta enrutamiento dinámico"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "¿Qué es la función `getStaticPaths` y cuándo se utiliza?",
+    "code": "",
+    "answers": [
+      "Una función para definir qué rutas dinámicas deben ser pre-renderizadas en el momento de la construcción de la página",
+      "Una función para obtener datos en el cliente",
+      "Un hook para manejar el estado del componente",
+      "Next.js no soporta `getStaticPaths`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 46,
+    "question": "¿Cómo se implementa la autenticación en Next.js?",
+    "code": "",
+    "answers": [
+      "Utilizando componentes de autenticación o middleware para proteger rutas",
+      "Con un archivo de configuración especial",
+      "Mediante un hook de autenticación",
+      "Next.js no soporta autenticación"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 47,
+    "question": "¿Qué es el sistema de enrutamiento en Next.js?",
+    "code": "",
+    "answers": [
+      "Un sistema basado en el sistema de archivos que mapea las rutas de las páginas",
+      "Un archivo de configuración de rutas",
+      "Un componente de enrutamiento",
+      "Next.js no tiene sistema de enrutamiento"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 48,
+    "question": "¿Cómo se realiza el pre-rendering de una página en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando `getStaticProps` o `getServerSideProps`",
+      "Con un archivo de configuración de pre-rendering",
+      "Mediante un hook de pre-rendering",
+      "Next.js no soporta pre-rendering"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 49,
+    "question": "¿Qué es `next.config.js` en Next.js?",
+    "code": "",
+    "answers": [
+      "Un archivo de configuración para ajustar opciones de la aplicación y del framework",
+      "Un archivo para definir rutas",
+      "Un archivo para manejar el estado global",
+      "Next.js no usa `next.config.js`"
+    ],
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 50,
+    "question": "¿Cómo se puede configurar el soporte para imágenes en Next.js?",
+    "code": "",
+    "answers": [
+      "Usando el componente `Image` de `next/image` y configurando el adaptador de imágenes en `next.config.js`",
+      "Con un archivo de configuración especial",
+      "Mediante un componente de imágenes",
+      "Next.js no soporta imágenes"
+    ],
+    "correctAnswerIndex": 0
+  }
+]
